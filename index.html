@@ -1,0 +1,1563 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>樂事美味奧吃卡</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=750,user-scalable=0">
+    <!-- hiding the Browser’s User Interface -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- meta start -->
+    <meta name="title" content="樂事美味奧吃卡" />
+    <meta name="description" content="樂事美味奧吃卡－投票立即抽千箱樂事；購買樂事系列任一產品，登錄發票再抽「好萊塢明星度假雙人遊」" />
+    <meta name="keywords" content="樂事, 洋芋片, 椒香辛辣, 青檸享清新, 起司超濃郁" />
+    <meta name="copyright" content="" />
+    <link rel="image_src" href="https://yummy.lays.com.tw/images/1200x630.png" />
+    <!-- iOS 6 -->
+    <meta name="apple-mobile-web-app-title" content="">
+    <!-- OG -->
+    <meta property="og:title" content="樂事美味奧吃卡" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="樂事美味奧吃卡－投票立即抽千箱樂事；購買樂事系列任一產品，登錄發票再抽「好萊塢明星度假雙人遊」" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://yummy.lays.com.tw/images/1200x630.png" />
+    <meta property="og:url" content="" />
+    <meta property="fb:app_id" content="" />
+    <!-- css start-->
+    <link rel="stylesheet" href="css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" href="css/default.css?v=5">
+    <!-- js start-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- archung js -->
+    <script type="text/javascript" src="js/lib/perfect-scrollbar.jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/lib/TimelineMax.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/lib/jstorage.js"></script>
+    <script type="text/javascript" src="js/ga.js"></script>
+    <script type="text/javascript" src="js/ChungTool.js"></script>
+    <script type="text/javascript" src="js/index.js?v=5"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl='zh-TW'>&onload=onloadCallback&render=explicit" async defer></script>
+    <!-- live reload -->
+    <!-- Facebook Pixel Code -->
+    <!-- <script>
+    ! function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1074158566045703');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
+    </script> -->
+    <!-- <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=1074158566045703&ev=PageView&noscript=1" />
+    </noscript> -->
+    <!-- End Facebook Pixel Code -->
+    <!-- <script>
+    if (!ChungTool.isOnline()) {
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    }
+    </script> -->
+</head>
+
+<body>
+    <!-- <script src="//cdn.doublemax.net/js/rtid.js"></script> -->
+    <!-- <script src="//dmp.eland-tech.com/dmpreceiver/eland_tracker.js"></script> -->
+    <!-- <script>
+    clickforce_rtid("2320001");
+    ElandTracker.Track({
+        'source': 'CAP2320',
+        'trackType': 'view',
+        'trackSubfolderDepth': 3,
+        'targetType': 'usual'
+    });
+    </script> -->
+    <div id="coverIndex" class=''>
+        <div class="skewBoxWrap sb_withScaleAnimation sb_phoneVertical">
+            <div class="skewbox sb1 gaBtn" data-ga='mainIndex_vote'>
+                <div class="sb_container">
+                    <div class="btnWrap">
+                        <div class="title"></div>
+                        <div class="btn arrbtn"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skewbox sb2 gaBtn" data-ga='mainIndex_invoice'>
+                <div class="sb_container">
+                    <div class="btnWrap">
+                        <div class="title"></div>
+                        <div class="btn arrbtn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logo"></div>
+    </div>
+    <div id="votePage" class='hide'>
+        <div class="header">
+            <div class="logo"></div>
+            <div class="menu phoneCloz">
+                <div class="mLine">|</div>
+                <div class="mBtn m_invoiceBtn gaBtn" data-ga='voteHeader_menuBtn01_vote'> 票選美味</div>
+                <div class="mLine">|</div>
+                <div class="mBtn m_winner gaBtn" data-ga='voteHeader_menuBtn02_winner'>即時中獎名單</div>
+                <div class="mLine">|</div>
+                <div class="mBtn m_rule gaBtn" data-ga='voteHeader_menuBtn03_rule'>活動辦法</div>
+                <div class="mLine">|</div>
+                <div class="clozBtn"></div>
+            </div>
+            <div class="bBtn gaBtn" data-ga='voteHeader_menuBtn_goInvoicePage'>
+                <div class="arr arr1"></div>
+                <div class="arr arr2"></div>
+            </div>
+            <div class="menuBtn gaBtn" data-ga='voteHeader_moblieMenuBtn'></div>
+        </div>
+        <div class="lightBox">
+            <div class="light1"></div>
+            <div class="light2"></div>
+        </div>
+        <div class="voteIndex subPage hide">
+            <div class="phoneTitle"></div>
+            <div class="manContainer">
+                <div class="manBox m1 mc1">
+                    <div class="snack"></div>
+                    <div class="man"></div>
+                    <div class="voteNum">
+                        <div class="flipNum" data-num='001233'>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="dot"></div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voteBtn hoverLeftBtn gaBtn" data-ga='voteIndex_voteBtn01'></div>
+                </div>
+                <div class="manBox m2 mc2">
+                    <div class="snack"></div>
+                    <div class="man"></div>
+                    <div class="voteNum">
+                        <div class="flipNum" data-num='028923'>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="dot"></div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voteBtn hoverLeftBtn  gaBtn" data-ga='voteIndex_voteBtn02'></div>
+                </div>
+                <div class="manBox m3 mc3">
+                    <div class="snack"></div>
+                    <div class="man"></div>
+                    <div class="voteNum">
+                        <div class="flipNum" data-num='009654'>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="dot"></div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                            <div class="numWrap n_0">
+                                <div class="digs"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voteBtn hoverLeftBtn gaBtn" data-ga='voteIndex_voteBtn03'></div>
+                </div>
+            </div>
+            <div class="titleBox">
+                <div class="videoBtn"></div>
+                <div class="title"></div>
+                <div class="winnerList">
+                    <div class="winners"></div>
+                </div>
+            </div>
+        </div>
+        <div class="votePage subPage hide">
+            <div class="rBox">
+                <div class="videoBtn phoneHide">
+                    <!--  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1599383817009909%2Fvideos%2F1599391220342502%2F&show_text=0&width=560" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe> -->
+                </div>
+                <div class="title"></div>
+            </div>
+            <div class="lBox">
+                <div class="manPic p1"></div>
+                <div class="lBtn gaBtn" data-ga='votePage_leftBtn'></div>
+                <div class="rBtn gaBtn" data-ga='votePage_RightBtn'></div>
+                <div class="lTBtn"></div>
+                <div class="rTBtn"></div>
+                <div class="controlBar">
+                    <div class="docTxt p1"></div>
+                    <div class="voteBtn arrbtn2"></div>
+                    <div class="flipNum">
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                        <div class="dot"></div>
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                        <div class="numWrap n_0">
+                            <div class="digs"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="winPage subPage hide">
+            <div class="txt"></div>
+            <div class="btn gaBtn" data-ga='voteWinPage_goFormBtn'></div>
+            <!-- <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717458;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717459;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717457;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717460;event:31" style="width:1px;height:1px;" alt="" /> -->
+        </div>
+        <div class="losePage subPage hide">
+            <div class="txt"></div>
+            <div class="btn gaBtn" data-ga='votelosePage_goVoteAgainBtn'></div>
+            <!-- <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717458;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717459;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717457;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717460;event:31" style="width:1px;height:1px;" alt="" /> -->
+        </div>
+        <div class="limitPage subPage  hide gaBtn" data-ga='voteLimitPage_goInvoiceBtn'>
+            <div class="txt"></div>
+            <div class="btn"></div>
+            <!-- <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717458;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717459;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717457;event:31" style="width:1px;height:1px;" alt="" />
+            <img src="https://farm-tw.plista.com/activity2;domainid:718737;campaignid:717460;event:31" style="width:1px;height:1px;" alt="" /> -->
+        </div>
+        <div class="formPage subPage hide">
+            <form id='voteForm'>
+                <div class="formConateiner">
+                    <div class="form-group">
+                        <input type="text" name="user_name" class="required userName" minlength="2" maxlength="8">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="mobileTaiwan required" name="phoneInput">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="addr required" name="user_addr">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="user_mail" class="userEmail required">
+                    </div>
+                    <input type="checkbox" name="" class='agreeBtn'>
+                    <a href="?page=rule1" class="ruleBtn gaBtn" data-ga='voteFromPage_ruleBtn' target='_blank'></a>
+                    <div id="codeWidget1"></div>
+                    <input class="sendBtn gaBtn" data-ga='voteFormPage_sendBtn' type='submit'></input>
+                </div>
+            </form>
+        </div>
+        <div class="successPage subPage hide">
+            <div class="container">
+                <div class="btn gaBtn" data-ga='voteFormSuccessPage_goInvoiceBtn'></div>
+            </div>
+        </div>
+        <div class="rulePage subPage  hide">
+            <div class="title"></div>
+            <div class="container perfectScrollBar">
+                <div class="ruleTxt"></div>
+            </div>
+        </div>
+        <div class="winnerPage subPage hide">
+            <div class="title"></div>
+            <div class="container">
+                <ul>
+                    <li>吳Ｏ枋 0931-xxx-546</li>
+                    <li>黃Ｏ雅 0933-xxx-520</li>
+                    <li>王Ｏ慧 0958-xxx-535</li>
+                    <li>楊Ｏ諺 0985-xxx-114</li>
+                    <li>鄭Ｏ璋 0986-xxx-350</li>
+                    <li>陳Ｏ汶 0978-xxx-390</li>
+                    <li>彭Ｏ琴 0922-xxx-804</li>
+                    <li>林Ｏ耀 0909-xxx-921</li>
+                    <li>蘇Ｏ瑄 0983-xxx-355</li>
+                    <li>陳Ｏ群 0988-xxx-452</li>
+                    <li>呂Ｏ蓉 0908-xxx-520</li>
+                    <li>石Ｏ誠 0932-xxx-856</li>
+                    <li>項Ｏ軒 0977-xxx-265</li>
+                    <li>何Ｏ慧 0970-xxx-685</li>
+                    <li>林Ｏ妏 0937-xxx-788</li>
+                    <li>林Ｏ邑 0930-xxx-862</li>
+                    <li>沈Ｏ蘭 0920-xxx-191</li>
+                    <li>湯Ｏ茹 0988-xxx-435</li>
+                    <li>蔡Ｏ伃 0986-xxx-650</li>
+                    <li>曹Ｏ濡 0966-xxx-689</li>
+                    <li>吳Ｏ瑩 0912-xxx-427</li>
+                    <li>張Ｏ興 0989-xxx-618</li>
+                    <li>李Ｏ勳 0917-xxx-279</li>
+                    <li>陳Ｏ婷 0925-xxx-287</li>
+                    <li>李Ｏ賦 0935-xxx-171</li>
+                    <li>蔡Ｏ如 0934-xxx-567</li>
+                    <li>林Ｏ發 0918-xxx-727</li>
+                    <li>陳Ｏ財 0923-xxx-819</li>
+                    <li>陳Ｏ阿雪 0922-xxx-073</li>
+                    <li>徐Ｏ恆 0939-xxx-651</li>
+                    <li>張Ｏ純 0912-xxx-082</li>
+                    <li>謝Ｏ珊 0978-xxx-211</li>
+                    <li>游Ｏ惠 0982-xxx-415</li>
+                    <li>洪Ｏ宏 0958-xxx-678</li>
+                    <li>陳Ｏ善 0980-xxx-537</li>
+                    <li>黃Ｏ如 0912-xxx-253</li>
+                    <li>陳Ｏ芳 0926-xxx-317</li>
+                    <li>李Ｏ莓 0982-xxx-512</li>
+                    <li>何Ｏ琪 0920-xxx-617</li>
+                    <li>陳Ｏ財 0923-xxx-819</li>
+                    <li>林Ｏ昇 0923-xxx-185</li>
+                    <li>林Ｏ賢 0936-xxx-987</li>
+                    <li>陳Ｏ儒 0916-xxx-800</li>
+                    <li>江Ｏ萱 0912-xxx-716</li>
+                    <li>蘇Ｏ雯 0937-xxx-240</li>
+                    <li>黃Ｏ琳 0918-xxx-836</li>
+                    <li>徐Ｏ辰 0920-xxx-628</li>
+                    <li>蔡Ｏ萍 0937-xxx-515</li>
+                    <li>陳Ｏ妤 0911-xxx-423</li>
+                    <li>林Ｏ耕 0903-xxx-084</li>
+                    <li>董Ｏ瑤 0963-xxx-875</li>
+                    <li>廖Ｏ廷 0988-xxx-422</li>
+                    <li>楊Ｏ琴 0925-xxx-799</li>
+                    <li>陳Ｏ娥 0926-xxx-682</li>
+                    <li>李Ｏ宥 0937-xxx-867</li>
+                    <li>古Ｏ加 0979-xxx-768</li>
+                    <li>陳Ｏ雪 0918-xxx-953</li>
+                    <li>陳Ｏ旭 0927-xxx-112</li>
+                    <li>呂Ｏ慧 0932-xxx-161</li>
+                    <li>李Ｏ菁 0923-xxx-578</li>
+                    <li>施Ｏ蓁 0986-xxx-745</li>
+                    <li>郭Ｏ萱 0956-xxx-755</li>
+                    <li>王Ｏ豪 0911-xxx-075</li>
+                    <li>葉Ｏ琪 0988-xxx-318</li>
+                    <li>陳Ｏ羽 0980-xxx-883</li>
+                    <li>李Ｏ玳 0916-xxx-144</li>
+                    <li>魏Ｏ慧 0917-xxx-376</li>
+                    <li>陳Ｏ惠 0973-xxx-168</li>
+                    <li>莊Ｏ微 0981-xxx-517</li>
+                    <li>陳Ｏ君 0928-xxx-125</li>
+                    <li>盧Ｏ春 0933-xxx-838</li>
+                    <li>張Ｏ珠 0933-xxx-838</li>
+                    <li>莊Ｏ旺 0918-xxx-639</li>
+                    <li>陳Ｏ晶 0933-xxx-521</li>
+                    <li>鄭Ｏ潔 0921-xxx-513</li>
+                    <li>張Ｏ民 0939-xxx-884</li>
+                    <li>呂Ｏ萱 0978-xxx-059</li>
+                    <li>陳Ｏ言 0919-xxx-296</li>
+                    <li>張Ｏ辰 0936-xxx-628</li>
+                    <li>鍾Ｏ豪 0936-xxx-564</li>
+                    <li>陳Ｏ如 0926-xxx-771</li>
+                    <li>劉Ｏ若 0932-xxx-323</li>
+                    <li>阮Ｏ文 0929-xxx-867</li>
+                    <li>黃Ｏ偉 0938-xxx-314</li>
+                    <li>劉Ｏ君 0975-xxx-171</li>
+                    <li>楊Ｏ薰 0934-xxx-451</li>
+                    <li>李Ｏ碩 0925-xxx-816</li>
+                    <li>李Ｏ娟 0908-xxx-288</li>
+                    <li>翁Ｏ萍 0933-xxx-803</li>
+                    <li>吳Ｏ志 0919-xxx-483</li>
+                    <li>蘇Ｏ文 0911-xxx-181</li>
+                    <li>馬Ｏ 0933-xxx-400</li>
+                    <li>鄭Ｏ宜 0988-xxx-699</li>
+                    <li>沈Ｏ承 0958-xxx-161</li>
+                    <li>蔡Ｏ偉 0976-xxx-603</li>
+                    <li>蔡Ｏ雯 0963-xxx-304</li>
+                    <li>陳Ｏ如 0952-xxx-232</li>
+                    <li>曾Ｏ銘 0955-xxx-611</li>
+                    <li>陳Ｏ婷 0971-xxx-106</li>
+                    <li>李Ｏ萱 0935-xxx-167</li>
+                    <li>彭Ｏ傑 0910-xxx-578</li>
+                    <li>謝Ｏ恩 0977-xxx-258</li>
+                    <li>陳Ｏ如 0926-xxx-771</li>
+                    <li>陳Ｏ月富 0936-xxx-833</li>
+                    <li>郭Ｏ興 0919-xxx-498</li>
+                    <li>蔡Ｏ萍 0988-xxx-439</li>
+                    <li>吳Ｏ水 0933-xxx-046</li>
+                    <li>呂Ｏ琪 0930-xxx-597</li>
+                    <li>施Ｏ君 0958-xxx-456</li>
+                    <li>劉Ｏ源 0953-xxx-288</li>
+                    <li>簡Ｏ憲 0976-xxx-763</li>
+                    <li>張Ｏ宜 0972-xxx-102</li>
+                    <li>劉Ｏ鈞 0922-xxx-638</li>
+                    <li>謝Ｏ瑾 0937-xxx-831</li>
+                    <li>游Ｏ婷 0918-xxx-649</li>
+                    <li>蔡Ｏ偉 0976-xxx-603</li>
+                    <li>李Ｏ佩 0932-xxx-251</li>
+                    <li>嚴Ｏ俊 0927-xxx-329</li>
+                    <li>陳Ｏ升 0915-xxx-398</li>
+                    <li>劉Ｏ妘 0909-xxx-560</li>
+                    <li>鄭Ｏ芳 0934-xxx-325</li>
+                    <li>何Ｏ丞 0976-xxx-805</li>
+                    <li>秦Ｏ涵 0932-xxx-612</li>
+                    <li>游Ｏ忠 0926-xxx-430</li>
+                    <li>蘇Ｏ燕 0916-xxx-186</li>
+                    <li>徐Ｏ辰 0920-xxx-628</li>
+                    <li>蔡Ｏ志 0989-xxx-759</li>
+                    <li>廖Ｏ麗 0920-xxx-472</li>
+                    <li>廖Ｏ麗 0920-xxx-472</li>
+                    <li>郭Ｏ昀 0977-xxx-027</li>
+                    <li>張Ｏ全 0912-xxx-150</li>
+                    <li>何Ｏ蓉 0939-xxx-881</li>
+                    <li>洪Ｏ　 0972-xxx-311</li>
+                    <li>張Ｏ蓉 0972-xxx-884</li>
+                    <li>李Ｏ祥 0987-xxx-477</li>
+                    <li>吳Ｏ賢 0983-xxx-035</li>
+                    <li>吳Ｏ綺 0982-xxx-520</li>
+                    <li>莊Ｏ香 0937-xxx-007</li>
+                    <li>游Ｏ燕 0956-xxx-762</li>
+                    <li>高Ｏ芯 0937-xxx-300</li>
+                    <li>彭Ｏ娟 0952-xxx-522</li>
+                    <li>蔣Ｏ誠 0928-xxx-089</li>
+                    <li>張Ｏ稜 0928-xxx-529</li>
+                    <li>石Ｏ棋 0981-xxx-632</li>
+                    <li>周Ｏ延 0955-xxx-851</li>
+                    <li>王Ｏ婷 0911-xxx-633</li>
+                    <li>林Ｏ伊 0921-xxx-171</li>
+                    <li>李Ｏ慧 0952-xxx-600</li>
+                    <li>劉Ｏ庭 0928-xxx-006</li>
+                    <li>莊Ｏ麗 0910-xxx-807</li>
+                    <li>呂Ｏ偉 0921-xxx-173</li>
+                    <li>呂Ｏ翔 0920-xxx-354</li>
+                    <li>林Ｏ蓉 0920-xxx-583</li>
+                    <li>辛Ｏ庭 0977-xxx-395</li>
+                    <li>石Ｏ坤 0983-xxx-382</li>
+                    <li>王Ｏ麗 0987-xxx-571</li>
+                    <li>陳Ｏ言 0975-xxx-003</li>
+                    <li>陳Ｏ　 0987-xxx-223</li>
+                    <li>胡Ｏ茹 0976-xxx-312</li>
+                    <li>陳Ｏ怡 0988-xxx-313</li>
+                    <li>郭Ｏ婷 0975-xxx-191</li>
+                    <li>施Ｏ岑 0965-xxx-263</li>
+                    <li>鍾Ｏ璟 0958-xxx-985</li>
+                    <li>陳Ｏ碧 0981-xxx-487</li>
+                    <li>黃Ｏ貽 0920-xxx-841</li>
+                    <li>吳Ｏ卿 0932-xxx-613</li>
+                    <li>詹Ｏ宇 0916-xxx-592</li>
+                    <li>林Ｏ芸 0937-xxx-148</li>
+                    <li>王Ｏ玲 0920-xxx-913</li>
+                    <li>陳Ｏ璘 0980-xxx-645</li>
+                    <li>陳Ｏ　 0988-xxx-297</li>
+                    <li>陳Ｏ鴻 0910-xxx-290</li>
+                    <li>蔡Ｏ穎 0988-xxx-125</li>
+                    <li>林Ｏ伶 0981-xxx-798</li>
+                    <li>徐Ｏ誼 0920-xxx-465</li>
+                    <li>白Ｏ瑋 0978-xxx-089</li>
+                    <li>林Ｏ英 0909-xxx-921</li>
+                    <li>洪Ｏ茹 0916-xxx-125</li>
+                    <li>邵Ｏ嫻 0978-xxx-912</li>
+                    <li>陳Ｏ呈 0912-xxx-080</li>
+                    <li>王Ｏ雯 0939-xxx-086</li>
+                    <li>施Ｏ桃 0922-xxx-398</li>
+                    <li>張Ｏ慈 0963-xxx-265</li>
+                    <li>陳Ｏ彤 0929-xxx-106</li>
+                    <li>蔡Ｏ　 0912-xxx-646</li>
+                    <li>吳Ｏ暄 0975-xxx-301</li>
+                    <li>劉Ｏ修 0926-xxx-452</li>
+                    <li>張Ｏ文琴 0968-xxx-599</li>
+                    <li>何Ｏ如 0935-xxx-977</li>
+                    <li>李Ｏ蕙 0920-xxx-766</li>
+                    <li>蔡Ｏ嶸 0912-xxx-671</li>
+                    <li>沈Ｏ稜 0926-xxx-627</li>
+                    <li>吳Ｏ錦 0988-xxx-191</li>
+                    <li>李Ｏ儀 0911-xxx-920</li>
+                    <li>吳Ｏ珍 0926-xxx-231</li>
+                    <li>王Ｏ暄 0925-xxx-055</li>
+                    <li>蔡Ｏ偉 0976-xxx-603</li>
+                    <li>王Ｏ萍 0921-xxx-062</li>
+                    <li>張Ｏ宣 0983-xxx-000</li>
+                    <li>曾Ｏ理 0925-xxx-280</li>
+                    <li>胡Ｏ芳 0987-xxx-010</li>
+                    <li>李Ｏ團 0933-xxx-568</li>
+                    <li>潘Ｏ彧 0912-xxx-797</li>
+                    <li>李Ｏ芬 0910-xxx-727</li>
+                    <li>蔡Ｏ婕 0953-xxx-705</li>
+                    <li>張Ｏ穎 0988-xxx-274</li>
+                    <li>王Ｏ裕 0926-xxx-989</li>
+                    <li>李Ｏ珠 0921-xxx-255</li>
+                    <li>陳Ｏ言 0975-xxx-003</li>
+                    <li>黃Ｏ順 0919-xxx-108</li>
+                    <li>侯Ｏ羚 0909-xxx-353</li>
+                    <li>江Ｏ娥 0931-xxx-952</li>
+                    <li>張Ｏ昊 0930-xxx-365</li>
+                    <li>陳Ｏ伶 0989-xxx-371</li>
+                    <li>陳Ｏ君 0952-xxx-225</li>
+                    <li>黃Ｏ營 0921-xxx-971</li>
+                    <li>章Ｏ瑋 0955-xxx-256</li>
+                    <li>張Ｏ淯 0975-xxx-351</li>
+                    <li>李Ｏ蓮 0983-xxx-120</li>
+                    <li>王Ｏ裕 0926-xxx-989</li>
+                    <li>鄭Ｏ榮 0989-xxx-772</li>
+                    <li>詹Ｏ如 0935-xxx-865</li>
+                    <li>郭Ｏ伶 0977-xxx-590</li>
+                    <li>黃Ｏ郁 0956-xxx-181</li>
+                    <li>楊Ｏ　 0934-xxx-011</li>
+                    <li>林Ｏ明 0921-xxx-795</li>
+                    <li>蕭Ｏ妙 0913-xxx-032</li>
+                    <li>郭Ｏ瑋 0935-xxx-915</li>
+                    <li>咸Ｏ　 0928-xxx-653</li>
+                    <li>張Ｏ瑀 0925-xxx-507</li>
+                    <li>利Ｏ瑩 0978-xxx-868</li>
+                    <li>王Ｏ介 0937-xxx-713</li>
+                    <li>陳Ｏ禎 0988-xxx-334</li>
+                    <li>蔡Ｏ偉 0976-xxx-603</li>
+                    <li>林Ｏ萍 0975-xxx-798</li>
+                    <li>陳Ｏ潔 0939-xxx-862</li>
+                    <li>陳Ｏ茵 0926-xxx-474</li>
+                    <li>梁Ｏ正 0919-xxx-175</li>
+                    <li>陳Ｏ育 0919-xxx-573</li>
+                    <li>鄭Ｏ之 0908-xxx-790</li>
+                    <li>王Ｏ來 0970-xxx-955</li>
+                    <li>陳Ｏ姓 0911-xxx-257</li>
+                    <li>范Ｏ博 0919-xxx-219</li>
+                    <li>陳Ｏ綾 0928-xxx-605</li>
+                    <li>王Ｏ儀 0928-xxx-808</li>
+                    <li>林Ｏ平 0920-xxx-319</li>
+                    <li>莊Ｏ志 0933-xxx-910</li>
+                    <li>王Ｏ前 0922-xxx-398</li>
+                    <li>郭Ｏ良 0911-xxx-896</li>
+                    <li>林Ｏ詩 0910-xxx-030</li>
+                    <li>江Ｏ文 0911-xxx-003</li>
+                    <li>陳Ｏ翎 0905-xxx-799</li>
+                    <li>林Ｏ如 0984-xxx-896</li>
+                    <li>洪Ｏ瑄 0952-xxx-570</li>
+                    <li>王Ｏ傑 0970-xxx-822</li>
+                    <li>DＯmi　 0912-xxx-981</li>
+                    <li>郭Ｏ琴 0926-xxx-122</li>
+                    <li>徐Ｏ惠 0910-xxx-126</li>
+                    <li>高Ｏ壹 0932-xxx-923</li>
+                    <li>胡Ｏ榮 0917-xxx-029</li>
+                    <li>馬Ｏ英 0919-xxx-844</li>
+                    <li>廖Ｏ麗 0920-xxx-472</li>
+                    <li>施Ｏ宗 0939-xxx-086</li>
+                    <li>陳Ｏ惠 0933-xxx-002</li>
+                    <li>黃Ｏ杰 0921-xxx-636</li>
+                    <li>劉Ｏ庭 0928-xxx-006</li>
+                    <li>陳Ｏ蘭 0968-xxx-016</li>
+                    <li>陳Ｏ璋 0939-xxx-541</li>
+                    <li>吳Ｏ和 0917-xxx-328</li>
+                    <li>林Ｏ慧 0933-xxx-139</li>
+                    <li>陳Ｏ珍 0963-xxx-878</li>
+                    <li>鍾Ｏ　 0971-xxx-169</li>
+                    <li>朱Ｏ遠 0929-xxx-330</li>
+                    <li>邱Ｏ娟 0929-xxx-108</li>
+                    <li>陳Ｏ如 0972-xxx-221</li>
+                    <li>陳Ｏ怡 0988-xxx-313</li>
+                    <li>裴Ｏ儒 0937-xxx-302</li>
+                    <li>蔡Ｏ桂 0956-xxx-723</li>
+                    <li>陳Ｏ綾 0928-xxx-605</li>
+                    <li>林Ｏ春 0968-xxx-727</li>
+                    <li>陳Ｏ馨 0982-xxx-130</li>
+                    <li>林Ｏ桂枝 0912-xxx-398</li>
+                    <li>王Ｏ淇 0988-xxx-568</li>
+                    <li>黃Ｏ盛 0972-xxx-022</li>
+                    <li>楊Ｏ雯 0982-xxx-559</li>
+                    <li>林Ｏ真 0939-xxx-519</li>
+                    <li>李Ｏ潔 0933-xxx-212</li>
+                    <li>劉Ｏ佩 0931-xxx-166</li>
+                    <li>陳Ｏ華 0928-xxx-880</li>
+                    <li>周Ｏ進 0905-xxx-804</li>
+                    <li>廖Ｏ霞 0960-xxx-735</li>
+                    <li>簡Ｏ羽 0985-xxx-522</li>
+                    <li>嚴Ｏ斌 0952-xxx-558</li>
+                    <li>陳Ｏ盛 0978-xxx-201</li>
+                    <li>詹Ｏ娥 0913-xxx-523</li>
+                    <li>蔡Ｏ萍 0937-xxx-515</li>
+                    <li>樂Ｏ　 0910-xxx-803</li>
+                    <li>蔡Ｏ傑 0912-xxx-220</li>
+                    <li>李Ｏ尚 0910-xxx-020</li>
+                    <li>曾Ｏ銘 0955-xxx-611</li>
+                    <li>徐Ｏ薇 0983-xxx-233</li>
+                    <li>許Ｏ瑋 0937-xxx-107</li>
+                    <li>陳Ｏ如 0926-xxx-077</li>
+                    <li>張Ｏ吉 0937-xxx-543</li>
+                    <li>黃Ｏ青 0989-xxx-763</li>
+                    <li>賴Ｏ安 0922-xxx-126</li>
+                    <li>鄭Ｏ華 0932-xxx-647</li>
+                    <li>羅Ｏ婷 0982-xxx-942</li>
+                    <li>郭Ｏ妍 0917-xxx-788</li>
+                    <li>廖Ｏ珊 0953-xxx-437</li>
+                    <li>李Ｏ蓉 0908-xxx-120</li>
+                    <li>謝Ｏ花 0920-xxx-609</li>
+                    <li>林Ｏ鈁 0906-xxx-854</li>
+                    <li>李Ｏ樺 0926-xxx-867</li>
+                    <li>陳Ｏ婷 0922-xxx-113</li>
+                    <li>劉Ｏ慧 0958-xxx-177</li>
+                    <li>黃Ｏ煌 0903-xxx-436</li>
+                    <li>陳Ｏ誌 0916-xxx-803</li>
+                    <li>楊Ｏ崴 0935-xxx-356</li>
+                    <li>呂Ｏ君 0958-xxx-300</li>
+                    <li>林Ｏ任 0910-xxx-197</li>
+                    <li>巫Ｏ田 0953-xxx-716</li>
+                    <li>莊Ｏ榛 0989-xxx-008</li>
+                    <li>羅Ｏ倫 0919-xxx-880</li>
+                    <li>黃Ｏ函 0919-xxx-059</li>
+                    <li>張Ｏ雄 0978-xxx-584</li>
+                    <li>黃Ｏ潔 0900-xxx-667</li>
+                    <li>楊Ｏ豪 0989-xxx-834</li>
+                    <li>王Ｏ鵬 0908-xxx-606</li>
+                    <li>張Ｏ華 0910-xxx-773</li>
+                    <li>黃Ｏ柔 0928-xxx-171</li>
+                    <li>曾Ｏ雲 0912-xxx-167</li>
+                    <li>利Ｏ欣 0933-xxx-698</li>
+                    <li>石Ｏ慧 0933-xxx-655</li>
+                    <li>程Ｏ珠 0933-xxx-620</li>
+                    <li>林Ｏ月嬌 0954-xxx-465</li>
+                    <li>呂Ｏ鳳 0985-xxx-279</li>
+                    <li>駱Ｏ萱 0987-xxx-195</li>
+                    <li>蔣Ｏ琳 0924-xxx-449</li>
+                    <li>林Ｏ蓉 0926-xxx-337</li>
+                    <li>王Ｏ玲 0952-xxx-835</li>
+                    <li>黃Ｏ瑾 0953-xxx-393</li>
+                    <li>李Ｏ霖 0953-xxx-393</li>
+                    <li>鄭Ｏ華 0918-xxx-962</li>
+                    <li>張Ｏ敏 0912-xxx-230</li>
+                    <li>何Ｏ瑜 0970-xxx-590</li>
+                    <li>劉Ｏ筌 0982-xxx-340</li>
+                    <li>林Ｏ威 0921-xxx-963</li>
+                    <li>許Ｏ忠 0988-xxx-181</li>
+                    <li>邱Ｏ玲 0970-xxx-622</li>
+                    <li>謝Ｏ錚 0910-xxx-718</li>
+                    <li>陳Ｏ婕 0963-xxx-822</li>
+                    <li>黃Ｏ欣 0912-xxx-879</li>
+                    <li>顏Ｏ莉 0917-xxx-009</li>
+                    <li>張Ｏ娟 0916-xxx-772</li>
+                    <li>李Ｏ莊 0952-xxx-232</li>
+                    <li>柯Ｏ伶 0910-xxx-223</li>
+                    <li>黃Ｏ足 0922-xxx-113</li>
+                    <li>劉Ｏ葉 0958-xxx-994</li>
+                    <li>蔣Ｏ儀 0910-xxx-232</li>
+                    <li>凌Ｏ洋 0906-xxx-558</li>
+                    <li>楊Ｏ惠 0913-xxx-717</li>
+                    <li>楊Ｏ苓 0978-xxx-061</li>
+                    <li>吳Ｏ芳 0966-xxx-221</li>
+                    <li>黃Ｏ如 0933-xxx-599</li>
+                    <li>林Ｏ鈁 0906-xxx-854</li>
+                    <li>馮Ｏ浩 0980-xxx-674</li>
+                    <li>蕭Ｏ嘉 0919-xxx-616</li>
+                    <li>范Ｏ柔 0921-xxx-820</li>
+                    <li>廖Ｏ玫 0982-xxx-698</li>
+                    <li>魏Ｏ芳 0920-xxx-762</li>
+                    <li>許Ｏ璇 0911-xxx-383</li>
+                    <li>林Ｏ歆 0932-xxx-407</li>
+                    <li>林Ｏ芬 0989-xxx-618</li>
+                    <li>張Ｏ鳳 0920-xxx-706</li>
+                    <li>李Ｏ成 0928-xxx-283</li>
+                    <li>謝Ｏ玲 0915-xxx-311</li>
+                    <li>蔡Ｏ德 0922-xxx-449</li>
+                    <li>蔣Ｏ綱 0968-xxx-515</li>
+                    <li>簡Ｏ雪 0910-xxx-506</li>
+                    <li>吳Ｏ玲 0979-xxx-245</li>
+                    <li>謝Ｏ峰 0936-xxx-032</li>
+                    <li>王Ｏ裕 0926-xxx-989</li>
+                    <li>康Ｏ霞 0989-xxx-247</li>
+                    <li>巫Ｏ富 0953-xxx-716</li>
+                    <li>謝Ｏ輝 0931-xxx-261</li>
+                    <li>呂Ｏ美 0921-xxx-231</li>
+                    <li>李Ｏ傑 0933-xxx-256</li>
+                    <li>陳Ｏ葦 0929-xxx-915</li>
+                    <li>高Ｏ鈞 0989-xxx-059</li>
+                    <li>陳Ｏ海 0979-xxx-579</li>
+                    <li>鄭Ｏ儀 0919-xxx-022</li>
+                    <li>魏Ｏ貞 0918-xxx-311</li>
+                    <li>吳Ｏ珍 0926-xxx-231</li>
+                    <li>倪Ｏ卿 0972-xxx-990</li>
+                    <li>楊Ｏ如 0932-xxx-856</li>
+                    <li>蔣Ｏ翔 0906-xxx-446</li>
+                    <li>薛Ｏ洲 0952-xxx-150</li>
+                    <li>詹Ｏ玉 0988-xxx-647</li>
+                    <li>李Ｏ賢 0930-xxx-050</li>
+                    <li>蔡Ｏ鈴 0934-xxx-190</li>
+                    <li>羅Ｏ英 0911-xxx-800</li>
+                    <li>盧Ｏ芬 0928-xxx-369</li>
+                    <li>陳Ｏ玲 0989-xxx-770</li>
+                    <li>賴Ｏ儒 0936-xxx-580</li>
+                    <li>李Ｏ鑫 0915-xxx-319</li>
+                    <li>張Ｏ菱 0988-xxx-863</li>
+                    <li>陳Ｏ益 0976-xxx-633</li>
+                    <li>徐Ｏ瑩 0939-xxx-127</li>
+                    <li>吳Ｏ芳 0966-xxx-221</li>
+                    <li>石Ｏ庭 0917-xxx-133</li>
+                    <li>郭Ｏ燦 0928-xxx-352</li>
+                    <li>蔡Ｏ忠 0912-xxx-614</li>
+                    <li>陳Ｏ德 0903-xxx-348</li>
+                    <li>吳Ｏ穎 0931-xxx-484</li>
+                    <li>林Ｏ霖 0921-xxx-023</li>
+                    <li>呂Ｏ瑋 0963-xxx-253</li>
+                    <li>蔡Ｏ宏 0915-xxx-216</li>
+                    <li>邱Ｏ英 0923-xxx-081</li>
+                    <li>盧Ｏ春 0958-xxx-378</li>
+                    <li>吳Ｏ青 0975-xxx-714</li>
+                    <li>吳Ｏ芳 0966-xxx-221</li>
+                    <li>詹Ｏ敏 0916-xxx-151</li>
+                    <li>陳Ｏ茹 0931-xxx-575</li>
+                    <li>黃Ｏ玉 0980-xxx-802</li>
+                    <li>陳Ｏ翰 0912-xxx-863</li>
+                    <li>吳Ｏ婷 0953-xxx-089</li>
+                    <li>戴Ｏ言 0921-xxx-171</li>
+                    <li>陳Ｏ美 0937-xxx-406</li>
+                    <li>謝Ｏ霜 0972-xxx-807</li>
+                    <li>沈Ｏ蘋 0939-xxx-086</li>
+                    <li>林Ｏ亭 0953-xxx-062</li>
+                    <li>施Ｏ光 0938-xxx-501</li>
+                    <li>莊Ｏ雯 0965-xxx-597</li>
+                    <li>張Ｏ坪 0961-xxx-046</li>
+                    <li>蔡Ｏ岑 0970-xxx-922</li>
+                    <li>陳Ｏ欣 0985-xxx-256</li>
+                    <li>林Ｏ儀 0911-xxx-205</li>
+                    <li>陳Ｏ怡 0952-xxx-248</li>
+                    <li>陳Ｏ慧 0981-xxx-273</li>
+                    <li>蔡Ｏ穎 0961-xxx-324</li>
+                    <li>張Ｏ暖 0932-xxx-548</li>
+                    <li>林Ｏ儀 0976-xxx-279</li>
+                    <li>莊Ｏ滄 0930-xxx-689</li>
+                    <li>林Ｏ裕 0968-xxx-347</li>
+                    <li>劉Ｏ馥 0952-xxx-051</li>
+                    <li>王Ｏ裕 0926-xxx-989</li>
+                    <li>陳Ｏ樺 0910-xxx-112</li>
+                    <li>羅Ｏ安 0988-xxx-153</li>
+                    <li>翁Ｏ豐 0961-xxx-045</li>
+                    <li>詹Ｏ鈞 0975-xxx-659</li>
+                    <li>張Ｏ豪 0932-xxx-949</li>
+                    <li>黃Ｏ雯 0912-xxx-377</li>
+                    <li>李Ｏ米 0912-xxx-047</li>
+                    <li>蔡Ｏ潔 0963-xxx-362</li>
+                    <li>張Ｏ吉 0937-xxx-543</li>
+                    <li>蔡Ｏ君 0978-xxx-000</li>
+                    <li>孫Ｏ真 0933-xxx-531</li>
+                    <li>蔡Ｏ宏 0926-xxx-639</li>
+                    <li>賴Ｏ諺 0909-xxx-313</li>
+                    <li>陳Ｏ婕 0909-xxx-013</li>
+                    <li>薛Ｏ嶧 0982-xxx-039</li>
+                    <li>吳Ｏ竑 0936-xxx-900</li>
+                    <li>吳Ｏ瑜 0982-xxx-838</li>
+                    <li>李Ｏ勤 0919-xxx-444</li>
+                    <li>林Ｏ君 0911-xxx-435</li>
+                    <li>鄭Ｏ妤 0921-xxx-756</li>
+                    <li>王Ｏ蝶 0972-xxx-903</li>
+                    <li>洪Ｏ庭 0918-xxx-162</li>
+                    <li>朱Ｏ麗 0909-xxx-716</li>
+                    <li>陳Ｏ揚 0929-xxx-315</li>
+                    <li>羅Ｏ婷 0972-xxx-935</li>
+                    <li>李Ｏ綺 0937-xxx-847</li>
+                    <li>張Ｏ雄 0903-xxx-748</li>
+                    <li>林Ｏ恭 0979-xxx-245</li>
+                    <li>李Ｏ欣 0988-xxx-804</li>
+                    <li>沈Ｏ鈞 0932-xxx-770</li>
+                    <li>張Ｏ榕 0966-xxx-995</li>
+                    <li>周Ｏ均 0931-xxx-552</li>
+                    <li>邱Ｏ萱 0928-xxx-055</li>
+                    <li>施Ｏ憲 0939-xxx-287</li>
+                    <li>李Ｏ菁 0923-xxx-578</li>
+                    <li>劉Ｏ瑋 0973-xxx-606</li>
+                    <li>游Ｏ慧 0937-xxx-377</li>
+                    <li>林Ｏ昇 0923-xxx-185</li>
+                    <li>李Ｏ庭 0937-xxx-909</li>
+                    <li>張Ｏ華 0985-xxx-410</li>
+                    <li>李Ｏ波 0918-xxx-080</li>
+                    <li>廖Ｏ有 0986-xxx-650</li>
+                    <li>謝Ｏ宏 0977-xxx-258</li>
+                    <li>陳Ｏ美 0937-xxx-406</li>
+                    <li>張Ｏ淑惠 0979-xxx-516</li>
+                    <li>張Ｏ菱 0988-xxx-863</li>
+                    <li>劉Ｏ亘 0939-xxx-520</li>
+                    <li>楊Ｏ霞 0929-xxx-748</li>
+                    <li>魏Ｏ貞 0918-xxx-311</li>
+                    <li>姜Ｏ全 0921-xxx-389</li>
+                    <li>李Ｏ缘 0976-xxx-355</li>
+                    <li>林Ｏ蘭 0982-xxx-742</li>
+                    <li>林Ｏ慶 0909-xxx-044</li>
+                    <li>謝Ｏ毅 0988-xxx-377</li>
+                    <li>蔡Ｏ龍 0979-xxx-455</li>
+                    <li>李Ｏ勝 0915-xxx-762</li>
+                    <li>羅Ｏ妤 0975-xxx-067</li>
+                    <li>林Ｏ春 0952-xxx-375</li>
+                    <li>林Ｏ基 0920-xxx-157</li>
+                    <li>蔡Ｏ琤 0933-xxx-201</li>
+                    <li>蔡Ｏ萍 0937-xxx-515</li>
+                    <li>邱Ｏ瑩 0972-xxx-082</li>
+                    <li>張Ｏ容 0976-xxx-992</li>
+                    <li>蕭Ｏ凡 0981-xxx-264</li>
+                    <li>陳Ｏ珠 0987-xxx-012</li>
+                    <li>陳Ｏ珠 0987-xxx-012</li>
+                    <li>劉Ｏ絲 0918-xxx-189</li>
+                    <li>陳Ｏ源 0922-xxx-386</li>
+                    <li>李Ｏ蓉 0922-xxx-571</li>
+                    <li>李Ｏ展 0984-xxx-948</li>
+                    <li>曾Ｏ銘 0955-xxx-611</li>
+                    <li>吳Ｏ偉 0910-xxx-538</li>
+                    <li>張Ｏ寶 0921-xxx-667</li>
+                    <li>蘇Ｏ銘 0921-xxx-155</li>
+                    <li>林Ｏ伊 0921-xxx-171</li>
+                    <li>王Ｏ金英 0922-xxx-398</li>
+                    <li>林Ｏ生 0908-xxx-968</li>
+                    <li>劉Ｏ庭 0928-xxx-006</li>
+                    <li>饒Ｏ梅 0929-xxx-075</li>
+                    <li>呂Ｏ陽 0932-xxx-687</li>
+                    <li>蔡Ｏ萍 0937-xxx-515</li>
+                    <li>陳Ｏ里 0970-xxx-603</li>
+                    <li>蘇Ｏ俐 0922-xxx-312</li>
+                    <li>林Ｏ喬 0903-xxx-907</li>
+                    <li>黃Ｏ敏 0975-xxx-922</li>
+                    <li>陳Ｏ禮 0937-xxx-780</li>
+                    <li>楊Ｏ蕾 0913-xxx-022</li>
+                    <li>王Ｏ雯 0939-xxx-086</li>
+                    <li>黃Ｏ萍 0919-xxx-997</li>
+                    <li>王Ｏ元 0985-xxx-020</li>
+                    <li>饒Ｏ萍 0932-xxx-876</li>
+                    <li>陳Ｏ嘉 0910-xxx-524</li>
+                    <li>蔡Ｏ英枝 0973-xxx-272</li>
+                    <li>周Ｏ雲 0903-xxx-351</li>
+                    <li>蘇Ｏ俐 0922-xxx-312</li>
+                    <li>蔡Ｏ主 0936-xxx-370</li>
+                    <li>陳Ｏ言 0919-xxx-296</li>
+                    <li>陳Ｏ高 0929-xxx-453</li>
+                    <li>徐Ｏ絹 0952-xxx-822</li>
+                    <li>林Ｏ勤 0939-xxx-551</li>
+                    <li>高Ｏ娟 0921-xxx-290</li>
+                    <li>陳Ｏ伶 0923-xxx-932</li>
+                    <li>劉Ｏ君 0986-xxx-608</li>
+                    <li>林Ｏ燕 0919-xxx-972</li>
+                    <li>陳Ｏ男 0985-xxx-015</li>
+                    <li>志Ｏ　 0935-xxx-078</li>
+                    <li>林Ｏ盛 0966-xxx-672</li>
+                    <li>張Ｏ興 0989-xxx-618</li>
+                    <li>楊Ｏ安 0912-xxx-252</li>
+                    <li>李Ｏ鳳 0920-xxx-932</li>
+                    <li>饒Ｏ　 0903-xxx-798</li>
+                    <li>魏Ｏ貞 0918-xxx-311</li>
+                    <li>林Ｏ楓 0913-xxx-936</li>
+                    <li>高Ｏ萍 0919-xxx-220</li>
+                    <li>康Ｏ　 0939-xxx-973</li>
+                    <li>陳Ｏ勝 0934-xxx-021</li>
+                    <li>蔡Ｏ瑩 0988-xxx-858</li>
+                    <li>陳Ｏ婷 0922-xxx-113</li>
+                    <li>簡Ｏ宸 0988-xxx-165</li>
+                    <li>陳Ｏ君 0955-xxx-899</li>
+                    <li>林Ｏ妏 0989-xxx-468</li>
+                    <li>劉Ｏ絲 0918-xxx-189</li>
+                    <li>呂Ｏ晴 0930-xxx-926</li>
+                    <li>楊Ｏ宇 0935-xxx-060</li>
+                    <li>廖Ｏ茹 0927-xxx-582</li>
+                    <li>周Ｏ穎 0978-xxx-472</li>
+                    <li>羅Ｏ珠 0908-xxx-673</li>
+                    <li>陳Ｏ財 0966-xxx-063</li>
+                    <li>陳Ｏ君 0921-xxx-671</li>
+                    <li>胡Ｏ珠 0986-xxx-156</li>
+                    <li>鍾Ｏ棋 0989-xxx-353</li>
+                    <li>林Ｏ寬 0923-xxx-336</li>
+                    <li>石Ｏ棋 0988-xxx-156</li>
+                    <li>黃Ｏ洲 0910-xxx-391</li>
+                    <li>林Ｏ敏 0988-xxx-002</li>
+                    <li>謝Ｏ琳 0978-xxx-883</li>
+                    <li>張Ｏ儀 0923-xxx-181</li>
+                    <li>張Ｏ瑤 0936-xxx-968</li>
+                    <li>李Ｏ雯 0910-xxx-753</li>
+                    <li>黃Ｏ瑄 0955-xxx-330</li>
+                    <li>宋Ｏ軒 0963-xxx-299</li>
+                    <li>王Ｏ媗 0912-xxx-040</li>
+                    <li>林Ｏ蓉 0986-xxx-636</li>
+                    <li>林Ｏ智 0963-xxx-591</li>
+                    <li>劉Ｏ如 0963-xxx-593</li>
+                    <li>鹿Ｏ忠 0928-xxx-544</li>
+                    <li>羅Ｏ惠 0989-xxx-778</li>
+                    <li>林Ｏ瑩 0979-xxx-869</li>
+                    <li>何Ｏ英 0917-xxx-591</li>
+                    <li>林Ｏ慈 0984-xxx-768</li>
+                    <li>吳Ｏ婷 0953-xxx-089</li>
+                    <li>陳Ｏ男 0985-xxx-015</li>
+                    <li>林Ｏ語 0989-xxx-201</li>
+                    <li>葉Ｏ琪 0900-xxx-818</li>
+                    <li>王Ｏ萍 0921-xxx-062</li>
+                    <li>黃Ｏ富 0926-xxx-096</li>
+                    <li>陳Ｏ心 0920-xxx-552</li>
+                    <li>陳Ｏ笑 0976-xxx-185</li>
+                    <li>王Ｏ前 0922-xxx-398</li>
+                    <li>曾Ｏ芳 0919-xxx-038</li>
+                    <li>陳Ｏ安 0973-xxx-722</li>
+                    <li>鍾Ｏ森 0926-xxx-207</li>
+                    <li>王Ｏ山 0983-xxx-185</li>
+                    <li>蔡Ｏ明 0928-xxx-155</li>
+                    <li>彭Ｏ梅 0909-xxx-058</li>
+                    <li>魏Ｏ貞 0918-xxx-311</li>
+                    <li>李Ｏ瑜 0958-xxx-993</li>
+                    <li>梁Ｏ來有 0931-xxx-566</li>
+                    <li>趙Ｏ珏 0909-xxx-556</li>
+                    <li>徐Ｏ蓮 0929-xxx-238</li>
+                    <li>蔡Ｏ珍 0982-xxx-459</li>
+                    <li>孫Ｏ君 0932-xxx-518</li>
+                    <li>施Ｏ桃 0922-xxx-398</li>
+                    <li>彭Ｏ梅 0909-xxx-058</li>
+                    <li>梁Ｏ龍 0922-xxx-807</li>
+                    <li>柯Ｏ婷 0920-xxx-626</li>
+                    <li>施Ｏ宗 0939-xxx-086</li>
+                    <li>謝Ｏ宏 0977-xxx-258</li>
+                    <li>蔡Ｏ龍 0979-xxx-455</li>
+                    <li>吳Ｏ蓁 0921-xxx-363</li>
+                    <li>林Ｏ楓 0913-xxx-936</li>
+                    <li>鄭Ｏ云 0933-xxx-046</li>
+                    <li>蕭Ｏ謙 0915-xxx-090</li>
+                    <li>鄭Ｏ倫 0938-xxx-161</li>
+                    <li>蔡Ｏ伊 0922-xxx-760</li>
+                    <li>蘇Ｏ絹 0977-xxx-201</li>
+                    <li>曾Ｏ誼 0919-xxx-342</li>
+                    <li>黃Ｏ甄 0933-xxx-459</li>
+                    <li>宋Ｏ緯 0975-xxx-798</li>
+                    <li>陳Ｏ善 0980-xxx-537</li>
+                    <li>呂Ｏ秀梅 0917-xxx-846</li>
+                    <li>陳Ｏ勝 0934-xxx-021</li>
+                    <li>王Ｏ容 0953-xxx-468</li>
+                    <li>劉Ｏ英 0903-xxx-834</li>
+                    <li>蔡Ｏ真 0923-xxx-309</li>
+                    <li>范Ｏ云 0963-xxx-033</li>
+                    <li>黃Ｏ粒 0933-xxx-981</li>
+                    <li>鄭Ｏ銘 0989-xxx-992</li>
+                    <li>吳Ｏ婷 0953-xxx-089</li>
+                    <li>林Ｏ妙 0989-xxx-089</li>
+                    <li>鍾Ｏ嫻 0960-xxx-226</li>
+                    <li>黃Ｏ洲 0917-xxx-900</li>
+                    <li>賴Ｏ偉 0927-xxx-208</li>
+                    <li>蘇Ｏ淑 0976-xxx-511</li>
+                    <li>鄭Ｏ尹 0972-xxx-062</li>
+                    <li>劉Ｏ瑋 0920-xxx-241</li>
+                    <li>郭Ｏ慈 0985-xxx-129</li>
+                    <li>詹Ｏ如 0935-xxx-865</li>
+                    <li>魏Ｏ貞 0918-xxx-311</li>
+                    <li>黃Ｏ蓮 0920-xxx-647</li>
+                    <li>葉Ｏ惠 0952-xxx-086</li>
+                    <li>沈Ｏ華 0926-xxx-637</li>
+                    <li>董Ｏ雍 0955-xxx-570</li>
+                    <li>張Ｏ坪 0961-xxx-046</li>
+                    <li>林Ｏ芳 0912-xxx-593</li>
+                    <li>朱Ｏ潔 0966-xxx-819</li>
+                    <li>石Ｏ慧 0980-xxx-923</li>
+                    <li>蘇Ｏ民 0906-xxx-939</li>
+                    <li>楊Ｏ鳳 0918-xxx-384</li>
+                    <li>陳Ｏ伃 0963-xxx-727</li>
+                    <li>楊Ｏ珍 0922-xxx-551</li>
+                    <li>胡Ｏ萍 0917-xxx-203</li>
+                    <li>陳Ｏ伶 0989-xxx-371</li>
+                    <li>張Ｏ玲 0912-xxx-781</li>
+                    <li>許Ｏ文 0963-xxx-825</li>
+                    <li>邱Ｏ薪 0975-xxx-588</li>
+                    <li>邱Ｏ婷 0933-xxx-089</li>
+                    <li>林Ｏ華 0939-xxx-066</li>
+                    <li>DＯniel 0933-xxx-187</li>
+                    <li>林Ｏ川 0989-xxx-832</li>
+                    <li>王Ｏ金英 0922-xxx-398</li>
+                    <li>唐Ｏ勛 0931-xxx-099</li>
+                    <li>沈Ｏ麗香 0938-xxx-598</li>
+                    <li>林Ｏ柔 0930-xxx-290</li>
+                    <li>謝Ｏ宏 0977-xxx-258</li>
+                    <li>陳Ｏ定 0906-xxx-496</li>
+                    <li>高Ｏ兒 0911-xxx-600</li>
+                    <li>羅Ｏ英 0911-xxx-800</li>
+                    <li>李Ｏ瑞 0920-xxx-758</li>
+                    <li>李Ｏ樺 0926-xxx-867</li>
+                    <li>徐Ｏ澄美 0916-xxx-640</li>
+                    <li>賴Ｏ貞 0920-xxx-896</li>
+                    <li>莊Ｏ滄 0930-xxx-689</li>
+                    <li>羅Ｏ珠 0908-xxx-673</li>
+                    <li>辜Ｏ怡 0975-xxx-215</li>
+                    <li>VＯVI　 0931-xxx-615</li>
+                    <li>林Ｏ棽 0953-xxx-563</li>
+                    <li>吳Ｏ緯 0987-xxx-675</li>
+                    <li>劉Ｏ吉 0911-xxx-285</li>
+                    <li>陳Ｏ穎 0980-xxx-819</li>
+                    <li>何Ｏ雯 0981-xxx-967</li>
+                    <li>孫Ｏ雯 0956-xxx-828</li>
+                    <li>羅Ｏ倫 0939-xxx-121</li>
+                    <li>林Ｏ靈 0975-xxx-475</li>
+                    <li>林Ｏ憶 0905-xxx-244</li>
+                    <li>陳Ｏ美 0986-xxx-277</li>
+                    <li>林Ｏ佑 0908-xxx-150</li>
+                    <li>林Ｏ銘 0961-xxx-789</li>
+                    <li>林Ｏ雄 0928-xxx-895</li>
+                    <li>沈Ｏ治 0956-xxx-657</li>
+                    <li>吳Ｏ錦 0988-xxx-191</li>
+                    <li>鄭Ｏ銘 0989-xxx-992</li>
+                    <li>周Ｏ慧 0989-xxx-120</li>
+                    <li>朱Ｏ君 0921-xxx-019</li>
+                    <li>林Ｏ蓁 0911-xxx-970</li>
+                    <li>陳Ｏ靜 0963-xxx-038</li>
+                    <li>吳Ｏ玲 0963-xxx-546</li>
+                    <li>廖Ｏ芳 0955-xxx-268</li>
+                    <li>陳Ｏ儒 0919-xxx-680</li>
+                    <li>陳Ｏ綾 0928-xxx-605</li>
+                    <li>黃Ｏ康 0912-xxx-594</li>
+                    <li>蔡Ｏ益 0981-xxx-141</li>
+                    <li>蔡Ｏ萍 0937-xxx-515</li>
+                    <li>廖Ｏ生 0958-xxx-158</li>
+                    <li>林Ｏ福 0952-xxx-359</li>
+                    <li>鄧Ｏ婷 0952-xxx-703</li>
+                    <li>吳Ｏ羽 0929-xxx-035</li>
+                    <li>林Ｏ琪 0986-xxx-338</li>
+                    <li>李Ｏ鑫 0915-xxx-319</li>
+                    <li>林Ｏ宜 0909-xxx-342</li>
+                    <li>李Ｏ樺 0926-xxx-867</li>
+                    <li>詹Ｏ如 0935-xxx-865</li>
+                    <li>薛Ｏ倫 0934-xxx-858</li>
+                    <li>謝Ｏ志 0963-xxx-143</li>
+                    <li>吳Ｏ志 0919-xxx-483</li>
+                    <li>林Ｏ芬 0960-xxx-305</li>
+                    <li>黃Ｏ琴 0931-xxx-823</li>
+                    <li>王Ｏ雅 0921-xxx-007</li>
+                    <li>楊Ｏ宜 0918-xxx-479</li>
+                    <li>蔣Ｏ琳 0924-xxx-449</li>
+                    <li>許Ｏ琪 0938-xxx-488</li>
+                    <li>朱Ｏ君 0921-xxx-019</li>
+                    <li>鍾Ｏ辰 0927-xxx-017</li>
+                    <li>廖Ｏ秋 0972-xxx-652</li>
+                    <li>簡Ｏ　 0910-xxx-068</li>
+                    <li>簡Ｏ恩 0988-xxx-466</li>
+                    <li>陳Ｏ翰 0960-xxx-777</li>
+                    <li>廖Ｏ婷 0970-xxx-875</li>
+                    <li>盧Ｏ鴻 0968-xxx-284</li>
+                    <li>王Ｏ慶 0925-xxx-135</li>
+                    <li>林Ｏ妙 0972-xxx-656</li>
+                    <li>蔡Ｏ娥 0921-xxx-092</li>
+                    <li>陳Ｏ婷 0971-xxx-106</li>
+                    <li>劉Ｏ安 0934-xxx-978</li>
+                    <li>賴Ｏ羽 0963-xxx-071</li>
+                    <li>莊Ｏ源 0927-xxx-992</li>
+                    <li>周Ｏ雲 0903-xxx-351</li>
+                    <li>陳Ｏ雯 0919-xxx-824</li>
+                    <li>林Ｏ　 0911-xxx-875</li>
+                    <li>江Ｏ妹 0982-xxx-133</li>
+                    <li>徐Ｏ生 0922-xxx-892</li>
+                    <li>邱Ｏ彤 0912-xxx-166</li>
+                    <li>林Ｏ駿 0982-xxx-857</li>
+                    <li>李Ｏ萱 0988-xxx-132</li>
+                    <li>林Ｏ盛 0966-xxx-672</li>
+                    <li>吳Ｏ飛 0987-xxx-675</li>
+                    <li>邱Ｏ姿 0985-xxx-811</li>
+                    <li>王Ｏ前 0922-xxx-398</li>
+                    <li>陳Ｏ萱 0930-xxx-258</li>
+                    <li>黃Ｏ花 0933-xxx-389</li>
+                    <li>廖Ｏ筑 0938-xxx-755</li>
+                    <li>詹Ｏ華 0953-xxx-968</li>
+                    <li>劉Ｏ葉 0958-xxx-994</li>
+                    <li>翁Ｏ萍 0933-xxx-803</li>
+                    <li>林Ｏ女 0921-xxx-487</li>
+                    <li>吳Ｏ婷 0953-xxx-089</li>
+                    <li>施Ｏ桃 0922-xxx-398</li>
+                    <li>陳Ｏ倫 0910-xxx-562</li>
+                    <li>陳Ｏ霖 0910-xxx-561</li>
+                    <li>王Ｏ慈 0975-xxx-982</li>
+                    <li>陳Ｏ蓉 0920-xxx-541</li>
+                    <li>蔣Ｏ儀 0910-xxx-232</li>
+                    <li>劉Ｏ君 0955-xxx-151</li>
+                    <li>廖Ｏ麗 0920-xxx-472</li>
+                    <li>莊Ｏ鵬 0910-xxx-598</li>
+                    <li>徐Ｏ英 0921-xxx-389</li>
+                    <li>林Ｏ勇 09339-xxx-97 </li>
+                    <li>胡Ｏ蓮 0928-xxx-184</li>
+                    <li>何Ｏ安 0954-xxx-221</li>
+                    <li>張Ｏ馨 0929-xxx-712</li>
+                    <li>蔡Ｏ烜 0938-xxx-122</li>
+                    <li>劉Ｏ英 0903-xxx-834</li>
+                    <li>盧Ｏ君 0925-xxx-269</li>
+                    <li>呂Ｏ輝 0921-xxx-351</li>
+                    <li>張Ｏ泳 0939-xxx-640</li>
+                    <li>朱Ｏ麗 0952-xxx-332</li>
+                    <li>夏Ｏ樞 0937-xxx-880</li>
+                    <li>洪Ｏ婕 0930-xxx-233</li>
+                    <li>吳Ｏ華 0926-xxx-661</li>
+                    <li>張Ｏ玲 0975-xxx-397</li>
+                    <li>林Ｏ駿 0982-xxx-857</li>
+                    <li>曾Ｏ銘 0955-xxx-611</li>
+                    <li>何Ｏ珊 0922-xxx-504</li>
+                    <li>陳Ｏ志 0911-xxx-706</li>
+                    <li>李Ｏ志 0922-xxx-537</li>
+                    <li>褚Ｏ雄 0925-xxx-269</li>
+                    <li>邱Ｏ蓮 0926-xxx-989</li>
+                    <li>胡Ｏ芳 0931-xxx-333</li>
+                    <li>蔣Ｏ綱 0968-xxx-515</li>
+                    <li>陳Ｏ仲 0988-xxx-063</li>
+                    <li>林Ｏ詩 0910-xxx-030</li>
+                    <li>邱Ｏ亨 0938-xxx-408</li>
+                    <li>賴Ｏ璇 0973-xxx-315</li>
+                    <li>林Ｏ民 0931-xxx-863</li>
+                    <li>李Ｏ娟 0908-xxx-288</li>
+                    <li>莊Ｏ源 0927-xxx-992</li>
+                    <li>林Ｏ勤 0939-xxx-551</li>
+                    <li>林Ｏ豪 0930-xxx-028</li>
+                    <li>姜Ｏ海 0912-xxx-059</li>
+                    <li>陳Ｏ松 0928-xxx-432</li>
+                    <li>李Ｏ姿 0981-xxx-185</li>
+                    <li>謝Ｏ琴 0975-xxx-186</li>
+                    <li>葉Ｏ欣 0975-xxx-190</li>
+                    <li>林Ｏ慧 0972-xxx-920</li>
+                    <li>曾Ｏ菁 0978-xxx-841</li>
+                    <li>邱Ｏ翔 0928-xxx-475</li>
+                    <li>陳Ｏ姬 0934-xxx-833</li>
+                    <li>洪Ｏ鈺 0932-xxx-158</li>
+                    <li>王Ｏ華 0922-xxx-073</li>
+                    <li>李Ｏ樺 0926-xxx-867</li>
+                    <li>張Ｏ吉 0937-xxx-543</li>
+                    <li>林Ｏ芬 0960-xxx-305</li>
+                    <li>何Ｏ宇 0937-xxx-247</li>
+                    <li>程Ｏ芳 0928-xxx-552</li>
+                    <li>張Ｏ興 0989-xxx-618</li>
+                    <li>蘇Ｏ學 0968-xxx-016</li>
+                    <li>林Ｏ志 0970-xxx-925</li>
+                    <li>李Ｏ青 0987-xxx-913</li>
+                    <li>曾Ｏ章 0939-xxx-031</li>
+                    <li>莊Ｏ微 0981-xxx-517</li>
+                    <li>王Ｏ瓔 0919-xxx-289</li>
+                    <li>張Ｏ禎 0981-xxx-182</li>
+                    <li>賴Ｏ璇 0973-xxx-315</li>
+                    <li>陳Ｏ德 0903-xxx-348</li>
+                    <li>吳Ｏ一 0931-xxx-546</li>
+                    <li>黃Ｏ美 0958-xxx-535</li>
+                    <li>王Ｏ筱 0922-xxx-115</li>
+                    <li>陳Ｏ宇 0938-xxx-735</li>
+                    <li>蔡Ｏ樂 0918-xxx-532</li>
+                    <li>吳Ｏ翊 0937-xxx-431</li>
+                    <li>劉Ｏ立 0922-xxx-139</li>
+                    <li>林Ｏ文 0933-xxx-035</li>
+                    <li>何Ｏ如 0910-xxx-121</li>
+                    <li>李Ｏ蕙 0957-xxx-317</li>
+                    <li>蔡Ｏ見 0918-xxx-965</li>
+                    <li>沈Ｏ稜 0933-xxx-343</li>
+                    <li>吳Ｏ秋 0955-xxx-743</li>
+                    <li>李Ｏ柔 0916-xxx-465</li>
+                    <li>吳Ｏ美 0926-xxx-964</li>
+                    <li>王Ｏ暄 0932-xxx-098</li>
+                    <li>楊Ｏ昆 0919-xxx-123</li>
+                    <li>鄭Ｏ元 0955-xxx-333</li>
+                    <li>陳Ｏ聰 0943-xxx-755</li>
+                    <li>彭Ｏ月 0927-xxx-236</li>
+                    <li>林Ｏ許 0918-xxx-123</li>
+                    <li>蘇Ｏ亭 0927-xxx-645</li>
+                    <li>陳Ｏ雅 0927-xxx-878</li>
+                    <li>呂Ｏ佩 0927-xxx-123</li>
+                    <li>石Ｏ世 0927-xxx-987</li>
+                    <li>項Ｏ韵 0933-xxx-565</li>
+                    <li>何Ｏ妍 0912-xxx-331</li>
+                    <li>林Ｏ姿 0913-xxx-336</li>
+                    <li>林Ｏ玟 0923-xxx-851</li>
+                    <li>沈Ｏ佳 0955-xxx-565</li>
+                    <li>湯Ｏ慧 0954-xxx-231</li>
+                    <li>蔡Ｏ婷 0912-xxx-677</li>
+                    <li>曹Ｏ家 0923-xxx-098</li>
+                    <li>吳Ｏ姿 0989-xxx-075</li>
+                    <li>張Ｏ家 0912-xxx-330</li>
+                    <li>何Ｏ嘉 0987-xxx-129</li>
+                    <li>陳Ｏ國 0943-xxx-698</li>
+                    <li>林Ｏ張 0913-xxx-890</li>
+                    <li>林Ｏ左 0990-xxx-324</li>
+                    <li>陳Ｏ姵 0955-xxx-086</li>
+                    <li>江Ｏ幼 0953-xxx-729</li>
+                    <li>蘇Ｏ湘 0922-xxx-865</li>
+                    <li>黃Ｏ筱 0917-xxx-797</li>
+                    <li>徐Ｏ泳 0955-xxx-293</li>
+                    <li>李Ｏ信 0934-xxx-131</li>
+                    <li>陳Ｏ玉 0918-xxx-853</li>
+                    <li>李Ｏ冠 0915-xxx-823</li>
+                    <li>蔡Ｏ惠 0932-xxx-361</li>
+                    <li>林Ｏ清 0919-xxx-999</li>
+                    <li>陳Ｏ國 0947-xxx-232</li>
+                    <li>林Ｏ雪 0963-xxx-533</li>
+                    <li>徐Ｏ子 0932-xxx-231</li>
+                    <li>張Ｏ嘉 0954-xxx-898</li>
+                    <li>謝Ｏ宜 0963-xxx-239</li>
+                    <li>游Ｏ馨 0918-xxx-589</li>
+                    <li>洪Ｏ信 0943-xxx-378</li>
+                    <li>陳Ｏ雲 0935-xxx-120</li>
+                    <li>黃Ｏ麗 0968-xxx-389</li>
+                    <li>陳Ｏ雅 0919-xxx-098</li>
+                    <li>李Ｏ敏 0932-xxx-219</li>
+                    <li>蔡Ｏ季 0918-xxx-900</li>
+                    <li>陳Ｏ品 0977-xxx-212</li>
+                    <li>林Ｏ永 0943-xxx-098</li>
+                    <li>劉Ｏ瓊 0952-xxx-786</li>
+                    <li>廖Ｏ偉 0920-xxx-334</li>
+                    <li>楊Ｏ寶 0918-xxx-123</li>
+                    <li>陳Ｏ碧 0958-xxx-621</li>
+                    <li>李Ｏ名 0932-xxx-789</li>
+                    <li>古Ｏ元 0966-xxx-683</li>
+                    <li>陳Ｏ中 0933-xxx-889</li>
+                    <li>陳Ｏ上 0919-xxx-123</li>
+                    <li>呂Ｏ欣 0933-xxx-900</li>
+                    <li>李Ｏ坤 0973-xxx-908</li>
+                    <li>林Ｏ卉 0953-xxx-078</li>
+                    <li>郭Ｏ文 0933-xxx-451</li>
+                    <li>王Ｏ嘉 0913-xxx-907</li>
+                    <li>葉Ｏ雅 0923-xxx-126</li>
+                    <li>陳Ｏ寶 0943-xxx-768</li>
+                    <li>李Ｏ昀 0928-xxx-450</li>
+                    <li>魏Ｏ雅 0919-xxx-453</li>
+                    <li>陳Ｏ梅 0933-xxx-908</li>
+                    <li>莊Ｏ淑 0926-xxx-645</li>
+                    <li>陳Ｏ婉 0932-xxx-332</li>
+                    <li>盧Ｏ紋 0955-xxx-094</li>
+                    <li>張Ｏ寶 0978-xxx-677</li>
+                    <li>莊Ｏ金 0933-xxx-567</li>
+                    <li>陳Ｏ珮 0919-xxx-631</li>
+                    <li>鄭Ｏ羽 0955-xxx-671</li>
+                    <li>張Ｏ世 0968-xxx-890</li>
+                    <li>呂Ｏ庭 0927-xxx-907</li>
+                    <li>陳Ｏ立 0933-xxx-786</li>
+                    <li>張Ｏ辰 0919-xxx-098</li>
+                    <li>鍾Ｏ任 0966-xxx-457</li>
+                    <li>陳Ｏ美 0958-xxx-907</li>
+                    <li>劉Ｏ芷 0919-xxx-426</li>
+                    <li>阮Ｏ前 0932-xxx-321</li>
+                    <li>黃Ｏ忠 0913-xxx-110</li>
+                    <li>劉Ｏ映 0928-xxx-633</li>
+                    <li>楊Ｏ苡 0919-xxx-782</li>
+                    <li>李Ｏ國 0955-xxx-267</li>
+                    <li>李Ｏ佩 0926-xxx-772</li>
+                    <li>翁Ｏ瑞 0918-xxx-541</li>
+                    <li>吳Ｏ明 0933-xxx-330</li>
+                    <li>蘇Ｏ聖 0972-xxx-783</li>
+                    <li>馬Ｏ駿 0953-xxx-561</li>
+                    <li>鄭Ｏ佳 0919-xxx-767</li>
+                    <li>沈Ｏ聖 0911-xxx-345</li>
+                    <li>蔡Ｏ宏 0967-xxx-311</li>
+                    <li>蔡Ｏ雅 0958-xxx-230</li>
+                    <li>陳Ｏ怡 0943-xxx-301</li>
+                    <li>曾Ｏ建 0932-xxx-655</li>
+                    <li>陳Ｏ愷 0955-xxx-892</li>
+                    <li>李Ｏ郁 0911-xxx-330</li>
+                    <li>彭Ｏ鉉 0956-xxx-160</li>
+                    <li>謝Ｏ杰 0987-xxx-098</li>
+                    <li>陳Ｏ美 0922-xxx-335</li>
+                    <li>林Ｏ月 0918-xxx-453</li>
+                    <li>郭Ｏ東 0952-xxx-096</li>
+                    <li>蔡Ｏ季 0919-xxx-784</li>
+                    <li>吳Ｏ麗 0913-xxx-233</li>
+                    <li>呂Ｏ鈺 0954-xxx-987</li>
+                    <li>施Ｏ玉 0967-xxx-290</li>
+                    <li>劉Ｏ豐 0932-xxx-374</li>
+                    <li>簡Ｏ明 0923-xxx-792</li>
+                    <li>張Ｏ安 0955-xxx-679</li>
+                    <li>劉Ｏ尹 0943-xxx-823</li>
+                    <li>謝Ｏ宛 0915-xxx-727</li>
+                    <li>游Ｏ雅 0933-xxx-624</li>
+                    <li>蔡Ｏ宏 0932-xxx-331</li>
+                    <li>李Ｏ怡 0953-xxx-626</li>
+                    <li>嚴Ｏ人 0913-xxx-020</li>
+                    <li>陳Ｏ壬 0953-xxx-325</li>
+                    <li>劉Ｏ芷 0973-xxx-423</li>
+                    <li>鄭Ｏ標 0963-xxx-212</li>
+                    <li>何Ｏ博 0955-xxx-829</li>
+                    <li>秦Ｏ靖 0932-xxx-331</li>
+                    <li>游Ｏ成 0953-xxx-163</li>
+                    <li>蘇Ｏ一 0932-xxx-562</li>
+                    <li>徐Ｏ良 0963-xxx-123</li>
+                    <li>蔡Ｏ長 0932-xxx-542</li>
+                    <li>廖Ｏ惠 0953-xxx-002</li>
+                    <li>郭Ｏ晉 0932-xxx-091</li>
+                    <li>張Ｏ佑 0953-xxx-137</li>
+                    <li>何Ｏ姍 0915-xxx-771</li>
+                    <li>洪Ｏ羽 0955-xxx-629</li>
+                    <li>張Ｏ晏 0983-xxx-828</li>
+                    <li>李Ｏ銘 0953-xxx-637</li>
+                    <li>吳Ｏ昱 0935-xxx-611</li>
+                    <li>吳Ｏ珮 0933-xxx-724</li>
+                    <li>莊Ｏ麗 0973-xxx-523</li>
+                    <li>游Ｏ秀 0953-xxx-120</li>
+                    <li>高Ｏ唯 0963-xxx-136</li>
+                    <li>彭Ｏ淑 0943-xxx-328</li>
+                    <li>蔣Ｏ元 0923-xxx-731</li>
+                    <li>張Ｏ筱 0933-xxx-523</li>
+                    <li>石Ｏ世 0953-xxx-011</li>
+                    <li>周Ｏ峻 0943-xxx-622</li>
+                    <li>王Ｏ鈺 0955-xxx-137</li>
+                    <li>林Ｏ家 0937-xxx-612</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="billPage" class='hide'>
+        <div class="header">
+            <div class="logo"></div>
+            <div class="menu phoneCloz">
+                 <div class="mLine">|</div>
+                <div class="mBtn m_invoiceBtn gaBtn" data-ga='invoiceHeader_menuBtn01_goInvoice'>登錄發票</div>
+                <div class="mLine">|</div>
+                <div class="mBtn m_winner gaBtn" data-ga='invoiceHeader_menuBtn02_winner'>中獎名單</div>
+                <div class="mLine">|</div>
+                <div class="mBtn m_rule gaBtn" data-ga='invoiceHeader_menuBtn03_rule'>活動辦法</div>
+                <div class="mLine">|</div>
+                <div class="clozBtn"></div>
+            </div>
+            <div class="bBtn gaBtn" data-ga='invoiceHeader_menuBtn04_goVote'>
+                <div class="arr arr1"></div>
+                <div class="arr arr2"></div>
+            </div>
+            <div class="menuBtn gaBtn" data-ga='invoiceHeader_moblie_menuBtn'></div>
+        </div>
+        <div class="container">
+            <div class="pricePage subPage">
+                <div class="pic">
+                    <div class="numBtn n1"></div>
+                    <a href="http://portal.gofederal.com.tw/news_list.php?ChannelID=444" class="linkbtn gaBtn" data-ga='invoicePage_goSeeFirstPrice' target='_blank'></a>
+                </div>
+                <div class="btn gaBtn hide" data-ga='invoicePage_mainGoInvoiceBtn'>
+                    <div class="arr"></div>
+                </div>
+                <div class="pic2">
+                    <div class="numBtn n2"></div>
+                    <div class="numBtn n3"></div>
+                </div>
+                <div class="scroll">
+                    <div class="arr"></div>
+                </div>
+            </div>
+            <div class="subPage waitPage hide"></div>
+            <div class="subPage formPage hide">
+                <form id='billForm'>
+                    <div class="input1">
+                        <div class="invoiceWrap">
+                            <div class="form-group">
+                                <input type="text" class="invoice required" name="user_invoice" maxlength="10" placeholder="AB12345678">
+                            </div>
+                            <div class="form-group  hide">
+                                <input type="text" class="invoice" name="user_invoice" maxlength="10" placeholder="AB12345678">
+                            </div>
+                            <div class="form-group  hide">
+                                <input type="text" class="invoice" name="user_invoice" maxlength="10" placeholder="AB12345678">
+                            </div>
+                            <div class="form-group  hide">
+                                <input type="text" class="invoice" name="user_invoice" maxlength="10" placeholder="AB12345678">
+                            </div>
+                            <div class="form-group hide">
+                                <input type="text" class="invoice" name="user_invoice" maxlength="10" placeholder="AB12345678">
+                            </div>
+                        </div>
+                        <div class="addMoreBtn">+新增發票欄位</div>
+                    </div>
+                    <div class="formConateiner">
+                        <div class="form-group">
+                            <input type="text" name="user_name" class="required userName" minlength="2" maxlength="8">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="mobileTaiwan required" name="phoneInput">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="user_mail" class="required userEmail">
+                        </div>
+                        <input type="checkbox" name="" class='agreeBtn'>
+                        <a href="?page=rule2" class="ruleBtn gaBtn" data-ga='invoiceForm_ruleBtn' target='_blank'></a>
+                        <div id="codeWidget2"></div>
+                        <input class="sendBtn gaBtn" data-ga='invoiceForm_sendBtn' type='submit'></input>
+                    </div>
+                </form>
+            </div>
+            <div class="subPage winnerPage">
+                <div class="wrap">
+                    <div class="wWrap">
+                        <h1>頭獎</h1>
+                        <div class="winBox">
+                            <li>鍾O鈺 0931-XXX-314</li>
+                        </div>
+                        <h1>二獎</h1>
+                        <div class="winBox">
+                            <li>曾O雲 0912-XXX-167</li>
+                            <li>李O雲 0987-XXX-442</li>
+                            <li>楊O姿 0910-XXX-574</li>
+                            <li>李O喬 0986-XXX-842</li>
+                            <li>蘇O華 0910-XXX-266</li>
+                            <li>翁O紘 0981-XXX-053</li>
+                            <li>郝O寬 0988-XXX-362</li>
+                            <li>曾O綸 0986-XXX-013</li>
+                            <li>陳O麟 0938-XXX-124</li>
+                            <li>何O圓 0912-XXX-405</li>
+                            <li>赵O玲 0903-XXX-462</li>
+                            <li>林O瑜 0920-XXX-423</li>
+                            <li>王O茹 0988-XXX-393</li>
+                            <li>賴O薇 0975-XXX-248</li>
+                            <li>李O家 0910-XXX-240</li>
+                            <li>張O臻 0980-XXX-631</li>
+                            <li>田O辰 0925-XXX-029</li>
+                            <li>陳O娥 0955-XXX-690</li>
+                            <li>柯O慈 0915-XXX-410</li>
+                            <li>柯O慈 0915-XXX-410</li>
+                        </div>
+                        <h1>三獎</h1>
+                        <div class="winBox">
+                            <li>游O安 0922-XXX-222</li>
+                            <li>王O菁 0926-XXX-721</li>
+                            <li>陳O瑜 0962-XXX-908</li>
+                            <li>李O貞 0985-XXX-955</li>
+                            <li>莊O竹 0912-XXX-892</li>
+                            <li>徐O敏 0977-XXX-295</li>
+                            <li>鍾O倫 0983-XXX-380</li>
+                            <li>周O庭 0913-XXX-862</li>
+                            <li>李O嬋 0989-XXX-732</li>
+                            <li>林O禎 0933-XXX-884</li>
+                            <li>楊O淇 0929-XXX-416</li>
+                            <li>黃O瑀 0985-XXX-821</li>
+                            <li>李O瑜 0989-XXX-518</li>
+                            <li>沈O霈 0970-XXX-565</li>
+                            <li>林O祺 0976-XXX-946</li>
+                            <li>修O君 0908-XXX-265</li>
+                            <li>苗O秀 0953-XXX-539</li>
+                            <li>楊O芬 0974-XXX-189</li>
+                            <li>彭O珮 0936-XXX-966</li>
+                            <li>黃O嵐 0935-XXX-599</li>
+                            <li>吳O儀 0920-XXX-880</li>
+                            <li>吳O豪 0953-XXX-882</li>
+                            <li>賴O婷 0903-XXX-224</li>
+                            <li>林O珠 0960-XXX-882</li>
+                            <li>趙O君 0930-XXX-311</li>
+                            <li>林O鴻 0919-XXX-188</li>
+                            <li>黃O銘 0956-XXX-386</li>
+                            <li>陳O華 0980-XXX-339</li>
+                            <li>李O儀 0911-XXX-920</li>
+                            <li>余O媛 0929-XXX-950</li>
+                            <li>蘇O茹 0919-XXX-138</li>
+                            <li>黃O琪 0912-XXX-313</li>
+                            <li>廖O彰 0922-XXX-256</li>
+                            <li>余O諺 0988-XXX-074</li>
+                            <li>李O珠 0973-XXX-232</li>
+                            <li>翁O琪 0953-XXX-077</li>
+                            <li>李O婷 0975-XXX-080</li>
+                            <li>陳O青 0952-XXX-962</li>
+                            <li>陳O靜 0920-XXX-959</li>
+                            <li>羅O禾 0905-XXX-770</li>
+                            <li>劉O茹 0970-XXX-077</li>
+                            <li>張O玲 0910-XXX-226</li>
+                            <li>吳O翔 0910-XXX-182</li>
+                            <li>梁O欽 0958-XXX-322</li>
+                            <li>謝O君 0982-XXX-376</li>
+                            <li>鄭O雯 0987-XXX-936</li>
+                            <li>廖O珊 0988-XXX-896</li>
+                            <li>陳O婷 0928-XXX-802</li>
+                            <li>余O雯 0923-XXX-378</li>
+                            <li>廖O復 0985-XXX-218</li>
+                            <li>許O雅 0980-XXX-009</li>
+                            <li>洪O婷 0909-XXX-076</li>
+                            <li>江O美 0970-XXX-168</li>
+                            <li>張O娟 0989-XXX-219</li>
+                            <li>朱O佩 0926-XXX-151</li>
+                            <li>王O珊 0932-XXX-416</li>
+                            <li>徐O瑩 0939-XXX-127</li>
+                            <li>林O娟 0932-XXX-861</li>
+                            <li>黃O婷 0927-XXX-051</li>
+                            <li>許O玲 0922-XXX-060</li>
+                            <li>黃O萱 0983-XXX-119</li>
+                            <li>黃O銘 0921-XXX-641</li>
+                            <li>陳O蔓 0983-XXX-888</li>
+                            <li>戴O庭 0913-XXX-071</li>
+                            <li>陳O雅 0978-XXX-143</li>
+                            <li>晏O翔 0976-XXX-113</li>
+                            <li>周O嫆 0976-XXX-399</li>
+                            <li>張O菱 0928-XXX-803</li>
+                            <li>徐O岑 0906-XXX-178</li>
+                            <li>蔡O欣 0908-XXX-371</li>
+                            <li>曾O翔 0937-XXX-385</li>
+                            <li>范O淳 0913-XXX-360</li>
+                            <li>許O淵 0987-XXX-521</li>
+                            <li>楊O芬 0928-XXX-356</li>
+                            <li>陳O心 0939-XXX-333</li>
+                            <li>董O琦 0921-XXX-314</li>
+                            <li>黃O珍 0955-XXX-096</li>
+                            <li>魏O俊 0970-XXX-168</li>
+                            <li>郭O美 0910-XXX-138</li>
+                            <li>江O美 0970-XXX-168</li>
+                            <li>江O美 0970-XXX-168</li>
+                            <li>沈O宏 0952-XXX-139</li>
+                            <li>徐O誼 0920-XXX-465</li>
+                            <li>程O儀 0983-XXX-621</li>
+                            <li>陳O賢 0920-XXX-947</li>
+                            <li>蕭O偉 0915-XXX-489</li>
+                            <li>呂O洋 0917-XXX-693</li>
+                            <li>陳O玉 0916-XXX-606</li>
+                            <li>吳O楷 0981-XXX-246</li>
+                            <li>吳O楷 0981-XXX-246</li>
+                            <li>吳O樺 0987-XXX-732</li>
+                            <li>張O萍 0988-XXX-109</li>
+                            <li>吳O樺 0987-XXX-732</li>
+                            <li>柯O富 0919-XXX-576</li>
+                            <li>戴O勛 0912-XXX-603</li>
+                            <li>柯O佑 0987-XXX-306</li>
+                            <li>柯O佑 0987-XXX-306</li>
+                            <li>柯O宜 0926-XXX-632</li>
+                            <li>林O妤 0972-XXX-345</li>
+                            <li>林O禎 0919-XXX-826</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subPage rulePage">
+                <div class="container perfectScrollBar">
+                    <div class="ruleTxt"></div>
+                </div>
+            </div>
+        </div>
+        <div class="invoicePop hide">
+            <div class="container">
+                <div class="cloz"></div>
+                <div class="btn"></div>
+            </div>
+        </div>
+    </div>
+    <div class="trackingIMG" style="position: absolute;top: 0;left: 0;pointer-events: none;opacity: 0;"></div>
+</body>
+
+</html>

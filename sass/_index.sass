@@ -1,0 +1,1024 @@
+
+html,body 
+	width: 100%
+	height: 100%
+
+=fullPage
+	width: 100%
+	height: 100% 
++phone
+	html 
+		font-size: 100%
+
++keyframes(arrbtn)
+	0%
+		left: 0px
+	50% 
+		left: 15px
+	100% 
+		left: 0
++keyframes(arrbtn2)
+	0% 
+		margin-left: 0px
+	50%
+		margin-left: -5px
+	100% 
+		margin-left: 0
++keyframes(arrbtn3)
+	0%
+		margin-left: 0px
+	50%
+		margin-left: 5px
+	100% 
+		margin-left: 0
+.btn 
+	cursor: pointer
+.arrbtn
+	cursor: pointer
+	position: relative
+	+animation(arrbtn 0.6s linear infinite)
+.arrbtn2
+	cursor: pointer
+	position: relative
+	+animation(arrbtn2 0.6s linear infinite)
+.hoverLeftBtn 
+	cursor: pointer
+	+dTime(0.3s)
+	&:hover 
+		margin-left: -15px
+
+#coverIndex
+	+fullPage 
+	position: absolute
+	z-index: 20
+	background-color: #FFF
+	overflow: hidden
+	.logo
+		+bg('index_logo.png')
+		position: absolute
+		top: 50px
+		left: 50%
+		margin-left: -188px / 2 
+		+phone
+			top: 10px
+			left: 10px
+			margin-left: 0
+	.skewBoxWrap
+
+		.sb1
+			.sb_container
+				+bgi('index_lBg.png') 
+				+coverBg
+				+phone
+					background-position: 50% 0
+				.btnWrap
+					margin-left: -15%
+					+phone
+						position: absolute
+						margin-left: 0
+						left: 440px
+						top: 169px
+
+					.title
+						+pc
+							+bg('indexTl.png') 
+
+					.btn
+						+bg('indexLBtn.png')
+							
+		.sb2
+			.sb_container
+				+bgi('index_rBg.png')  
+				+coverBg
+				+phone
+					background-position: 50% 0
+				.btnWrap
+					+phone
+						position: absolute
+						margin-left: 0
+						left: 440px
+						top: 180px
+
+					.title
+						+pc
+							+bg('indexTr.png')
+					.btn
+						+bg('index_rBtn.png')
+		.sb_container
+			+divGoVerticalCenter_forMom
+			.btnWrap
+				+divGoVerticalCenter_forKid
+				.logo
+					margin: 0 auto
+				.pic 
+					margin: 0 auto
+				.btn
+					margin: 0 auto
+.header
+	position: absolute
+	z-index: 10
+	background-color: #ab0323
+	height: 42px 
+	width: 100%
+	+phone 
+		height: 52px
+		+shadowDiv
+	.logo
+		+bg('logo2.png') 
+		position: absolute
+		left: 13px
+		top: 10px
+	.menuBtn
+		+phone 
+			+bg('mBtn2.png')
+			position: absolute
+			top: 8px
+			right: 20px
+			cursor: pointer
+	.menu
+		position: absolute
+		top: 0
+		right: 0
+		display: inline-block
+		line-height: 42px
+		// margin-right: 180px
+		> * 
+			display: inline-block
+			color: #ecdd9f
+			margin: 0 10px
+		.mBtn
+			cursor: pointer
+			+dTime
+			&:hover 
+				text-decoration: underline
+		
+		+phone 
+			+bg('menu2.png')
+			right: 50%
+			margin-right: -632px / 2
+			top: 50px
+			padding-top: 320px
+			z-index: 50
+			&.phoneCloz
+				display: none
+			.mBtn	 
+				+hide-text 
+				// border: 1px solid #000
+				width: 100%
+				height: 120px
+				display: block
+				margin: 0
+			.mLine
+				display: none
+			.clozBtn
+				position: absolute
+				width: 100px
+				height: 100px
+				top: 50px
+				right: 0px
+				// border: 1px solid #000 
+	.bBtn
+		+bg('btn1.png')	
+		position: absolute
+		right: 23px
+		top: 50px
+		cursor: pointer
+		+phone 
+			position: fixed
+			right: 10px
+			bottom: 10px
+			top: auto
+		.arr
+			position: absolute
+			+phone 
+				margin-top: 50px
+				margin-left: -10px
+		.arr1
+			top: 72px
+			left: -14px
+			+bg('btnArr.png')
+			+animation(arrbtn2 0.6s linear infinite)
+
+		.arr2
+			top: 75px
+			left: -32px
+			+bg('btnArr.png')
+			+animation(arrbtn2 0.6s linear infinite)
+
+
+label.error
+	color: white
+	padding-left: 10px
+input[type="tel"],input[type="email"]
+	padding-left: 10px
+
+input[type='submit']
+	border: none
+	background-color: transparent
+	+hide-text
+	display: block
+
++keyframes(light)
+	0% 
+		+rotate(0deg)
+	50%
+		+rotate(-30deg) 
+	100%
+		+rotate(0deg) 
++keyframes(light2)
+	0% 
+		+rotate(-60deg)
+	50%
+		+rotate(-30deg) 
+	100%
+		+rotate(-60deg)  
+#votePage
+	+fullPage
+	position: absolute
+	top: 0
+	left: 0
+	overflow: hidden
+	+bgi('mainBg.png') 
+	+coverBg	
+	+phone 
+		height: auto
+		min-height: 100%
+	.lightBox
+		> * 
+			+bg('light.png')
+			position: absolute
+			top: -30px
+			left: 50% 
+		.light1
+			margin-left: -676px / 2	- 250px
+			+transform-origin(right,0) 
+			+phone 
+				margin-left: -676px / 2
+		.light2
+			+rotate(-70deg)
+			+transform-origin(right,0)
+			margin-left: -900px - 250px
+			+phone 
+				margin-left: -900px 
+		&.shake 
+			.light1
+				+animation(light 6s infinite) 
+			.light2
+				+animation(light2 6s infinite) 
+		
+
+	.subPage
+		+pc
+			left: 50% 
+			top: 50%
+			margin-left: -1300px / 2
+			margin-top: -500px / 2
+			width: 1300px
+			height: 600px
+			position: absolute
+		+phone 
+			margin-top: 110px
+			position: relative
+	.voteIndex
+		+phone 
+			padding-bottom: 200px
+		.phoneTitle
+			+phone 
+				+bg('pTitle.png')
+				margin: 0 auto
+				position: relative
+				z-index: 5
+		
+		.manContainer
+			+pc
+				width: 750px
+				position: relative
+				margin-left: 50px
+			+phone 	
+				position: relative
+				height: 730px
+			.manBox
+				+pc
+					width: 33%
+					display: inline-block
+					position: relative
+					height: 50px
+					&.m2 
+						z-index: 5 
+				+phone 
+					position: absolute
+					&.m1
+						top: 60px
+						left: 10px
+						.voteBtn
+							top: 287px
+							left: 60px
+							+bg('voteBB2.png')
+						.voteNum
+							top: 200px
+							left: 10px
+					&.m2
+						top: -30px
+						left: 360px
+						.voteBtn
+							top: 257px
+							left: 60px
+						.voteNum
+							top: 176px
+							left: 161px
+
+					&.m3
+						top: 360px
+						left: 190px
+						.voteBtn
+							top: 227px
+							left: 60px
+							+bg('voteBB2.png')
+						.voteNum
+							top: 140px
+							left: 10px
+
+				.snack
+					+pc
+						position: absolute
+						top: 0
+						left: 50%
+						margin-left: -214px / 2 
+				.man
+					position: absolute
+					left: 124px
+					top: 122px
+					+phone 
+						top: 0
+						left: 0
+
+				.voteNum
+					// +bg('clock.png')
+					position: absolute
+					top: 346px
+					left: 30px
+					.flipNum
+						+transform-origin(0,0)
+						+scale(0.65)
+						+phone 
+							+scale(0.8)
+					+phone 
+						pointer-events: none
+						
+				.voteBtn
+					+bg('voteBtn.png')
+					position: absolute
+					top: 390px
+					left: 120px
+
+			@for $i from 1 through 4
+				.m#{$i}
+					.snack
+						+pc
+							+bg('sn#{$i}.png')
+					.man
+						+bg('m#{$i}.png')
+					.voteBtn
+						+bg('voteBtn.png')
+		.titleBox 
+			+pc
+				position: absolute
+				right: 70px
+				top: 0
+				width: 440px
+			+phone  
+				position: relative
+				
+			.title
+				+bg('voteTitle1.png')
+				position: absolute
+				top: 160px 
+				+phone 
+					position: relative
+					top: 0
+					margin: 0 auto
+			.winnerList 
+				position: absolute
+				top: 390px
+				width: 245px   
+				overflow: hidden 
+				left: 108px
+				height: 30px
+				+phone 
+					top: 220px
+					left: 125px
+					width: 415px
+				.winners
+					color: #fff9cf
+					text-decoration: underline
+					white-space: nowrap
+					position: absolute
+					top: 0
+					left: 0
+	.votePage
+		.lBox
+			position: absolute
+			top: -50px
+			left: 50px
+			+phone 
+				position: relative
+				top: 0
+				left: 50%
+				margin-left: -756px / 2
+				margin-top: 20px
+			.manPic
+				&.p1
+					+bg('b1.png')
+					
+				&.p2
+					+bg('b2.png')
+					
+				&.p3
+					+bg('b3.png')
+					
+			
+			.lBtn
+				+bg('vb.png')
+				position: absolute
+				top: 540px
+				left: 100px
+				cursor: pointer
+				+dTime(0.3s)
+				// &:hover 
+				// 	margin-left: -10px
+				+animation(arrbtn3 1.2s linear infinite)
+				+phone 
+					left: 30px
+
+			.rBtn
+				+bg('vb.png')
+				position: absolute
+				top: 540px
+				left: 700px 
+				cursor: pointer 
+				+transform(scaleX(-1))
+				+dTime(0.3s)
+				// &:hover 
+				// 	margin-left: 10px
+				+animation(arrbtn2 1.2s linear infinite)
+				+phone 
+					left: 670px
+
+			.lTBtn 
+				// border: 1px solid #000	
+				position: absolute
+				width: 190px
+				height: 300px
+				top: 40px
+				left: 30px
+				cursor: pointer
+
+			.rTBtn
+				// border: 1px solid #000	
+				position: absolute
+				width: 190px
+				height: 300px
+				top: 40px
+				left: 530px
+				cursor: pointer
+			.controlBar
+				position: absolute
+				top: 516px
+				left: 250px
+				+phone 	
+					left: 175px
+			.docTxt
+				margin: 0 auto
+				margin-top: 15px
+				position: absolute
+				top: -27px
+				left: -80px 
+				&.p1
+					+bg('cc1.png')
+				&.p2
+					+bg('cc2.png')
+
+				&.p3
+					+bg('cc3.png')
+			.flipNum
+				position: absolute
+				top: 60px
+				left: 232px
+			.voteBtn 
+				+bg('voteBB.png')
+				position: absolute
+				left: 230px
+				top: -13px
+		.rBox
+			position: absolute
+			right: 25px 
+			top: 100px
+			width: 440px
+			+phone 
+				position: relative
+				right: 0
+				top: 0
+				width: 100%
+			.videoBtn
+				// +bg('vbb.png')
+				width: 369px
+				height: 207px
+				background-color: black
+				margin: 0 auto
+			.title   
+				+bg('tt.png')
+				margin: 0 auto
+				margin-top: 20px
+				margin-left: -10px
+				+phone  
+					margin: 0 auto
+			
+
+	.winPage
+		.txt
+			+bg('win.png')		
+			margin: 0 auto
+		.btn	
+			margin: 0 auto
+			margin-top: 40px
+			+bg('vvb.png')
+	.losePage
+		.txt
+			+bg('none.png')		
+			margin: 0 auto
+		.btn	
+			margin: 0 auto
+			margin-top: 40px
+			+bg('cv.png')
+	.limitPage
+		.txt
+			+bg('none2.png')		
+			margin: 0 auto
+		.btn	
+			margin: 0 auto
+			margin-top: 40px
+			+bg('vv3.png')
+	.formPage
+		form
+			+bg('form.png')
+			margin: 0 auto
+			position: relative
+			#codeWidget1 
+				margin-top: 30px
+			.formConateiner
+				position: absolute
+				top: 118px
+				left: 280px
+				+phone 
+					top: 194px
+					left: 220px
+				input
+					width: 250px
+					margin-bottom: 20px
+					+phone 
+						width: 400px
+						margin-bottom: 50px
+				.agreeBtn
+					position: absolute
+					width: 16px
+					height: 16px	
+					left: -54px
+					top: 177px
+					+phone 	
+						width: 26px
+						height: 26px
+						left: -64px
+						top: 368px
+				.sendBtn	
+					+bg('send.png')
+					margin-left: 20px
+					+phone 
+						margin-top: 130px
+				.form-group
+					position: relative
+				label.error 
+					position: absolute 
+					width: 230px
+					left: 250px
+					top: 0
+					+phone 
+						top: 40px
+						left: 0
+			.ruleBtn 
+				position: absolute
+				width: 200px
+				height: 30px
+				top: 170px 
+				left: 20px
+				display: block
+				+phone 
+					width: 260px
+					height: 50px
+					top: 360px
+					left: 130px
+
+
+
+	.successPage 
+		.container
+			+bg('gov.png')
+			margin: 30px auto 
+			overflow: auto
+			.btn	
+				+bg('gotbn.png')
+				margin: 0 auto
+				margin-top: 130px
+				+phone 
+					margin-top: 320px
+	.rulePage
+		.title
+			+bg('rT.png') 
+			margin: 0 auto
+			margin-bottom: 30px
+		.container	
+			width: 810px
+			margin: 0 auto
+			height: 450px
+			position: relative 
+			.ruleTxt 
+				+bg('RTT.png')  
+
+			+phone 
+				width: 100%
+				height: 800px
+				.ruleTxt 
+					margin: 0 auto 
+					margin-bottom: 200px
+	.winnerPage
+		.title
+			+bg('winnnerT.png')
+			margin: 0 auto
+			margin-bottom: 30px
+		.container 
+			width: 810px 
+			margin: 0 auto 
+			height: 450px
+			position: relative   
+			overflow-y: scroll 
+			+phone 
+				height: auto
+				padding-bottom: 170px
+			ul   
+				li 
+					width: 33%
+					color: white 
+					font-size: 1.6rem
+					display: inline-block  
+					// text-align: center
+					text-align: left
+
+			+phone 
+				ul 
+					width: 650px
+					margin: 0 auto
+					display: block
+					li 
+						width: 45%
+						font-size: 1.5rem
+
+.flipNum
+	+transform-origin(0,0)
+	+scale(0.7)
+	+phone 
+		+scale(1)
+
+	width: 300px
+	.numWrap
+		+bg('num.png')
+		height: 60px !important
+		overflow: hidden 
+		display: inline-block
+		+dTime(1.6s)
+		
+		+phone 
+			height: 60px  
+		@for $i from 0 through 10 
+			&.n_#{$i}
+				background-position: 0 62px * ( $i + 1 )
+	.dot
+		+bg('dot.png') 
+		display: inline-block 
+		position: relative
+		top: 8px
+		left: 3px
+		margin-right: 3px
+#billPage
+	+fullPage
+	+coverBg
+	+bgi('pBg.png')
+	position: absolute
+	top: 0
+	left: 0
+	overflow: hidden
+	
+	.invoicePop
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(black,0.5)
+		+divGoVerticalCenter_forMom
+	
+		z-index: 10
+		 
+ 
+		.container
+			+bg('ss.png')
+			+divGoVerticalCenter_forKid
+			position: relative
+			overflow: hidden
+			.btn 
+				+bg('btntbt.png')
+				position: absolute
+				top: 170px
+				left: 150px
+				+phone  
+					top: 200px
+					left: 95px 
+			.cloz
+				+bg('clozz.png')
+				cursor: pointer
+				position: absolute
+				right: 10px
+				top: 10px
+
+	.scroll
+		+pc
+			// +bg('pp3.png')
+			width: 70px
+			height: 13px
+		position: absolute 
+		left: 50%
+		margin-left: -35px
+		bottom: -80px
+		.arr
+			position: absolute
+			+bg('parr.png')
+			left: 50%
+			margin-left: -25px
+			top: -30px
+
+
+	.header 
+		background-color: #ffd800
+		.menu
+			> * 
+				color: #000000
+			+phone 
+				+bg('menu.png') 
+
+		.bBtn
+			+bg('ptbtn.png')
+			cursor: pointer
+			.arr1
+				top: 67px - 5px
+			.arr2
+				top: 70px - 5px
+		.menuBtn
+			+phone 
+				+bg('mBtn.png') 
+	.container
+		+fullPage
+		overflow-y: scroll
+		overflow-x: hidden
+		.subPage
+			margin: 0 auto
+			margin-bottom: 300px
+
+
+		.pricePage
+			width: 720px
+			margin-top: 200px
+
+			position: relative
+			@media screen and (max-height: 700px)
+				margin-top: 100px
+			+phone
+				margin-top: 70px
+			.pic
+				+bg('pp1.png')
+				position: relative
+				left: 100px
+				+phone 
+					left: 20px
+				.n1
+					+pc
+						position: absolute
+						+bg('p1.png')
+						left: -120px
+						top: -50px
+				+keyframes(lighting)
+					0% 
+						+opacity(0.7)
+					50% 
+						+opacity(1)
+					100%
+						+opacity(0.7)
+				.linkbtn
+					+bg('btnn.png')
+					position: absolute
+					top: 110px
+					left: 30px
+					+animation(1.2s lighting infinite)
+					&:hover 
+						+opacity(1)
+					+phone 
+						top: 280px
+						left: 80px
+			.btn 	
+				+bg('pBtn2.png')
+				position: relative
+				left: 150px
+				cursor: pointer
+				+phone
+					left: 0
+				.arr 
+					+bg('arrr.png')
+					+animation(arrbtn2 0.3s linear infinite)
+					position: absolute
+					top: 28px
+					left: 327px
+					+phone
+						top: 56px
+						left: 517px
+
+			.pic2 
+				+bg('pp2.png')
+				position: relative 
+				left: 100px
+				margin-top: 60px
+				+phone
+					left: 0
+				.n2
+					+pc
+						position: absolute
+						+bg('p2.png') 
+						left: -90px
+						top: -40px
+				.n3
+					+pc
+						position: absolute
+						+bg('p3.png')
+						left: 310px
+						top: -40px
+
+
+		.waitPage
+			+bg('pp0.png')
+
+		.formPage
+			// +bg('semd.png')
+			position: relative
+			width: 650px
+			background-color: rgba(white,0.8)
+			padding: 30px 65px
+			.input1
+				+bgi('input1.png')
+				background-repeat: no-repeat
+				min-height: 109px
+				overflow: visible
+				padding-top: 87px
+				padding-left: 98px
+				padding-bottom: 30px
+				position: relative
+				+phone
+					padding-top: 100px
+				.invoiceWrap
+					position: relative
+					+phone 
+						.error
+							left: 361px
+					.invoice 
+						margin-left: 70px
+						width: 260px 
+						margin-bottom: 10px
+						+phone
+							width: 300px
+							
+
+				.addMoreBtn
+					position: absolute
+					right: 52px
+					bottom: 0
+					text-decoration: underline
+					cursor: pointer
+	
+
+
+			.ruleBtn
+				position: absolute
+				width: 200px
+				height: 30px 
+				// border: 1px solid #000
+				cursor: pointer
+				top: 145px 
+				left: 60px
+				display: block
+				+phone 
+					width: 270px
+					top: 185px
+					left: 210px
+			label.error 
+				color: red
+				position: absolute
+				width: 100px
+				left: 330px
+				top: 0
+			.formConateiner 
+				position: relative
+				margin-top: 20px 
+				// padding-top: 27px
+				padding-left: 80px
+				left: 18px
+				+bgi('input2.png')
+				width: 437px
+				background-repeat: no-repeat
+				+phone
+					padding-left: 110px
+					margin-top: 12px
+					width: 472px
+				.form-group
+					position: relative
+				
+				input
+					width: 330px
+					margin-bottom: 25px
+					+phone
+						width: 337px
+						margin-bottom: 28px
+
+				
+				.agreeBtn
+					position: absolute
+					width: 16px
+					height: 16px	
+					left: 9px
+					top: 150px
+					+phone
+						left: 0 
+						width: 25px
+						height: 25px
+						top: 192px
+				#codeWidget2
+					margin-top: 30px
+					+phone
+						margin-top: 70px
+				.sendBtn	
+					+bg('sendBtn2.png')
+					margin-left: 70px 
+					margin-top: 10px
+
+		.winnerPage
+			+bg('winn.png') 
+			position: relative
+			padding-top: 150px
+			.wrap
+				width: 570px
+				height: 440px
+				overflow-y: scroll
+				overflow-x: hidden
+				margin: 0 auto
+
+				.wWrap
+					h1 
+						text-align: center
+						font-size: 2rem
+						font-weight: bold
+						margin-bottom: 15px	
+					.winBox
+						display: -webkit-flex
+						display: -moz-flex
+						display: -ms-flex
+						display: -o-flex
+						display: flex 	
+						justify-content: space-between
+						flex-wrap: wrap
+						margin-bottom: 40px	
+						li 
+							text-align: center
+							list-style-type: none
+
+						
+		.rulePage
+			+bg('rule.png')
+			overflow: auto 
+			.container 
+				width: 540px
+				height: 340px  
+				margin: 0 auto
+				margin-top: 100px
+				position: relative
+				+phone 
+					height: 650px
+				.ruleTxt 
+					+bg('rr.png')
+
+.flip-clock-wrapper ul li a div div.inn
+	background: white
+	color: black

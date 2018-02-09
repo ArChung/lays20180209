@@ -1,0 +1,6 @@
+[submodule "lib/facebook"]
+	path = lib/facebook
+	url = https://github.com/facebook/php-graph-sdk.git
+[submodule "lib/recaptcha"]
+	path = lib/recaptcha
+	url = https://github.com/google/recaptcha.git

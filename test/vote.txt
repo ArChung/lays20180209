@@ -1,0 +1,20 @@
+{
+  "status": "1",
+  "result": [
+    {
+      "id": "1",
+      "prod_name": "青檸享清新",
+      "vote_count": "0"
+    },
+    {
+      "id": "2",
+      "prod_name": "椒香辛辣",
+      "vote_count": "0"
+    },
+    {
+      "id": "3",
+      "prod_name": "起司超濃郁",
+      "vote_count": "0"
+    }
+  ]
+}

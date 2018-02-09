@@ -1,0 +1,20 @@
+[0508/154025.918:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0508/154026.169:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: 管道已結束。 (0x6D)
+[0508/154026.626:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0508/160954.638:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0508/160954.741:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: 管道已結束。 (0x6D)
+[0508/160954.742:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0508/161649.934:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0508/161650.148:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: 管道已結束。 (0x6D)
+[0508/161650.160:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0612/121754.634:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0612/144257.811:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0612/144730.067:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0612/144947.148:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0612/145949.059:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0612/145949.158:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: 管道已結束。 (0x6D)
+[0612/145949.632:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0623/132940.510:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0629/113742.824:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: 存取被拒。 (0x5)
+[0629/113742.883:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: 管道已結束。 (0x6D)
+[0629/113743.465:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled

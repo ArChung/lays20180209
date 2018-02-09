@@ -1,0 +1,53 @@
+﻿{
+  "status": "1",
+  "result": [
+    {
+      "award_id": "56",
+      "vote_log_id": "23330",
+      "status": "1",
+      "keychain": "158f087355667a",
+      "opentime": "2017-04-14 14:00:00",
+      "updated": "2017-04-14 16:24:21",
+      "fb_id": "1832452197079606",
+      "username": "游志忠",
+      "phone": "0926276430",
+      "address": null,
+      "email": "until5000@gmail.com",
+      "vote_id": "2",
+      "ip": "111.241.99.197",
+      "created": "2017-04-14 16:24:21"
+    },
+    {
+      "award_id": "56",
+      "vote_log_id": "23330",
+      "status": "1",
+      "keychain": "158f087355667a",
+      "opentime": "2017-04-14 14:00:00",
+      "updated": "2017-04-14 16:24:21",
+      "fb_id": "1832452197079606",
+      "username": "游志忠",
+      "phone": "0926276430",
+      "address": null,
+      "email": "until5000@gmail.com",
+      "vote_id": "2",
+      "ip": "111.241.99.197",
+      "created": "2017-04-14 16:24:21"
+    },
+    {
+      "award_id": "56",
+      "vote_log_id": "23330",
+      "status": "1",
+      "keychain": "158f087355667a",
+      "opentime": "2017-04-14 14:00:00",
+      "updated": "2017-04-14 16:24:21",
+      "fb_id": "1832452197079606",
+      "username": "van",
+      "phone": "0994879487",
+      "address": null,
+      "email": "until5000@gmail.com",
+      "vote_id": "2",
+      "ip": "111.241.99.197",
+      "created": "2017-04-14 16:24:21"
+    }
+  ]
+}
